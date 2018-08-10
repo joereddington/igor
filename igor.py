@@ -1,11 +1,11 @@
 import csv
+import datetime
 
 events=[]
 
 
 def tasks_on_date(target_date):
     return_list=[]
-    print target_date.toordinal()
     for event in events:
         if target_date.toordinal() % int(event[0]) ==0:
             return_list.append(event[1])
@@ -26,3 +26,13 @@ def import_events(filename):
         lines = filter(None, reader)
         for line in lines:
             events.append(line)
+
+
+
+
+if __name__=="__main__":
+    import_events("testinputs/events.csv")
+    print "Igor V0.1"
+    print "Today's tasks are:"
+    for task in tasks_on_date(datetime.date.today()):
+        print task
