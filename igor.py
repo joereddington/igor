@@ -4,7 +4,12 @@ events=[]
 
 
 def tasks_on_date(target_date):
-    return []
+    return_list=[]
+    print target_date.toordinal()
+    for event in events:
+        if target_date.toordinal() % int(event[0]) ==0:
+            return_list.append(event[1])
+    return return_list
 
 def generate_list(days):
     return_list=[]

@@ -26,14 +26,21 @@ class igor_test(TestCase):
 
 
 
-    def test_events_on_this_say(self):
+    def test_events_on_this_day_1(self):
         current_date = datetime.date.today()
-        target_date=datetime.date.fromordinal(100)
+        target_date=datetime.date.fromordinal(105)
         igor.events=[]
         igor.import_events("testinputs/events.csv")
         tasks=igor.tasks_on_date(target_date)
         self.assertEqual(len(tasks),2)
 
+    def test_events_on_this_day_2(self):
+        current_date = datetime.date.today()
+        target_date=datetime.date.fromordinal(100)
+        igor.events=[]
+        igor.import_events("testinputs/events.csv")
+        tasks=igor.tasks_on_date(target_date)
+        self.assertEqual(len(tasks),1)
 
 
 
