@@ -1,5 +1,6 @@
 from unittest import TestCase
 import unittest
+import datetime
 import igor
 
 class igor_test(TestCase):
@@ -22,6 +23,17 @@ class igor_test(TestCase):
        igor.import_events("testinputs/events.csv")
        events=igor.generate_list(10)
        self.assertEqual(len(events),12)
+
+
+
+    def test_events_on_this_say(self):
+        current_date = datetime.date.today()
+        target_date=datetime.date.fromordinal(100)
+        igor.events=[]
+        igor.import_events("testinputs/events.csv")
+        tasks=igor.tasks_on_date(target_date)
+        self.assertEqual(len(tasks),2)
+
 
 
 

@@ -3,6 +3,9 @@ import csv
 events=[]
 
 
+def tasks_on_date(target_date):
+    return []
+
 def generate_list(days):
     return_list=[]
     for i in range(days):
