@@ -9,6 +9,7 @@ def generate_list(days):
         for event in events:
             if i % int(event[0]) ==0:
                 return_list.append(event[1])
+    return return_list
 
 
 def import_events(filename):

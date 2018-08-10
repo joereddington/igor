@@ -21,7 +21,7 @@ class igor_test(TestCase):
        igor.events=[]
        igor.import_events("testinputs/events.csv")
        events=igor.generate_list(10)
-       self.assertEqual(len(igor.events),11)
+       self.assertEqual(len(events),12)
 
 
 
