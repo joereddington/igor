@@ -1,4 +1,5 @@
 import csv
+import os
 import datetime
 
 events=[]
@@ -31,8 +32,13 @@ def import_events(filename):
 
 
 if __name__=="__main__":
-    import_events("testinputs/events.csv")
+
+    here= os.path.dirname(os.path.realpath(__file__))
+    import_events(here+"/events.csv")
     print "Igor V0.1"
-    print "Today's tasks are:"
-    for task in tasks_on_date(datetime.date.today()):
-        print task
+    number_of_days_to_go_back=10
+    for i in range(number_of_days_to_go_back+1):
+        print ""
+        print (datetime.date.today()-datetime.timedelta(number_of_days_to_go_back-i))
+        for task in tasks_on_date(datetime.date.today()-datetime.timedelta(number_of_days_to_go_back-i)):
+            print task
