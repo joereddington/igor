@@ -41,7 +41,24 @@ class igor_test(TestCase):
         igor.import_events("testinputs/events.csv")
         tasks=igor.tasks_on_date(target_date)
         self.assertEqual(len(tasks),1)
+    
+    def test_get_events_for_this_ordinal(self):
+        ordinal=7
+        tasks=igor.tasks_on_date(ordinal)
+        self.assertEqual(len(tasks),2)
 
+    def test_tasks_since(self):
+        start=7
+        end=15
+        tasks=igor.tasks_since(start,end)
+        for i in tasks:
+            print i
+        self.assertEqual(len(tasks),10)
+        
+# what do I need to write tests for? 
+# return the ordinal for a date
+# return the events for an ordinal 
+# print the events for an ordinal 
 
 
 if __name__=="__main__":
