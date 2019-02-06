@@ -5,6 +5,7 @@ import argparse
 
 events=[]
 args={}
+here= os.path.dirname(os.path.realpath(__file__))
 
 def setup_argument_list():
     "creates and parses the argument list for Igor"
@@ -61,18 +62,21 @@ def print_recent_tasks(number_of_days_to_go_back=4):
             print task
 
 def read_integers():
-    with open("lastdate.txt") as f:
+    with open(here+"/lastdate.txt") as f:
         return map(int, f)
 
+def write_ordinal():
+   f=open(here+"/lastdate.txt","w")
+   f.write("{}".format(datetime.date.today().toordinal()))
+   f.close()
+
 def go():
-    here= os.path.dirname(os.path.realpath(__file__))
     import_events(here+"/events.csv")
-    print "Igor V0.1"
-    print "Current ordinal is: {}".format(datetime.date.today().toordinal())
-    print args
     if args.d:
-        print "hello"
         for task in tasks_since(read_integers()[0]):
             print task
+        write_ordinal()
     else:
+        print "Igor V0.1"
+        print "Current ordinal is: {}".format(datetime.date.today().toordinal())
         print_recent_tasks()
