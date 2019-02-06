@@ -1,9 +1,17 @@
 import csv
 import os
 import datetime
+import argparse
 
 events=[]
+args={}
 
+def setup_argument_list():
+    "creates and parses the argument list for Igor"
+    parser = argparse.ArgumentParser( description="manages Igor")
+    parser.add_argument('-d', action="store_true", help="Show only tasks since this date")
+    parser.set_defaults(verbatim=False)
+    return parser.parse_args()
 
 def tasks_since(start,end=datetime.date.today().toordinal()):
     return_list=[]
@@ -43,14 +51,28 @@ def import_events(filename):
         for line in lines:
             events.append(line)
 
-if __name__=="__main__":
 
-    here= os.path.dirname(os.path.realpath(__file__))
-    import_events(here+"/events.csv")
-    print "Igor V0.1"
-    number_of_days_to_go_back=10
+
+def print_recent_tasks(number_of_days_to_go_back=4):
     for i in range(number_of_days_to_go_back+1):
         print ""
         print (datetime.date.today()-datetime.timedelta(number_of_days_to_go_back-i))
         for task in tasks_on_date(datetime.date.today()-datetime.timedelta(number_of_days_to_go_back-i)):
             print task
+
+def read_integers():
+    with open("lastdate.txt") as f:
+        return map(int, f)
+
+def go():
+    here= os.path.dirname(os.path.realpath(__file__))
+    import_events(here+"/events.csv")
+    print "Igor V0.1"
+    print "Current ordinal is: {}".format(datetime.date.today().toordinal())
+    print args
+    if args.d:
+        print "hello"
+        for task in tasks_since(read_integers()[0]):
+            print task
+    else:
+        print_recent_tasks()

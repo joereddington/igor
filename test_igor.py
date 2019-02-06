@@ -51,8 +51,6 @@ class igor_test(TestCase):
         start=7
         end=15
         tasks=igor.tasks_since(start,end)
-        for i in tasks:
-            print i
         self.assertEqual(len(tasks),10)
         
 # what do I need to write tests for? 
