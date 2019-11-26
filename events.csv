@@ -2,6 +2,7 @@
 1, (A) Lock phone away and drink 1L of Water @singleton +Health Time:03
 1, (C) 1. Process Email @singleton +Overhead @phone  Time:90
 1, (C) 2. Switch to live account and start streaming +EQT @singleton Time:99
+1, (C) 3. Bring +EQT timesheet into balance @singleton Time:99
 3, (E) Floss +Health @nova  Time:05
 3, (E) Vitimin Tablet +Health @nova  Time:02
 4, (D) Do full accounts algorithm +EQT Time:99
@@ -16,6 +17,7 @@
 4, (E) Write a letter to Nova +Family Time:30 
 6, (C) Send something to the grandparent facebook group 
 7, (E) 10 Contacts on the contact list 
+7, (A) Review and rescore Wheel Of life
 7, (E) Check the last time §e:U2FsdGVkX18e4dSc7UPajr6opVoESIiCeqyZawbCs2Q=§ called you +Family @phone  Time:03 
 7, (E) Check the next school time +EQT Time:03 
 7, (E) change razor blade Time:03 
