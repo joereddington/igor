@@ -10,7 +10,8 @@ here= os.path.dirname(os.path.realpath(__file__))
 def setup_argument_list():
     "creates and parses the argument list for Igor"
     parser = argparse.ArgumentParser( description="manages Igor")
-    parser.add_argument('-d', action="store_true", help="Show only tasks since this date")
+    parser.add_argument('-n', action="store_true", help="Show only tasks since the last recorded run")
+#    parser.add_argument('-d', action="store_true", help="Show only tasks since this date")
     parser.set_defaults(verbatim=False)
     return parser.parse_args()
 
@@ -72,7 +73,7 @@ def write_ordinal():
 
 def go():
     import_events(here+"/events.csv")
-    if args.d:
+    if args.n:
         for task in tasks_since(read_integers()[0]):
             print task
         write_ordinal()
