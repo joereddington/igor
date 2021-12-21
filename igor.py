@@ -49,7 +49,7 @@ def generate_list(days,start=0):
 def import_events(filename):
     with open(filename, 'rU') as events_file:
         reader = csv.reader(events_file, skipinitialspace=True)
-        lines = filter(None, reader)
+        lines = [_f for _f in reader if _f]
         for line in lines:
             events.append(line)
 
@@ -57,14 +57,14 @@ def import_events(filename):
 
 def print_recent_tasks(number_of_days_to_go_back=4):
     for i in range(number_of_days_to_go_back+1):
-        print ""
-        print (datetime.date.today()-datetime.timedelta(number_of_days_to_go_back-i))
+        print("")
+        print((datetime.date.today()-datetime.timedelta(number_of_days_to_go_back-i)))
         for task in tasks_on_date(datetime.date.today()-datetime.timedelta(number_of_days_to_go_back-i)):
-            print task
+            print(task)
 
 def read_integers():
     with open(here+"/lastdate.txt") as f:
-        return map(int, f)
+        return list(map(int, f))
 
 def write_ordinal():
    f=open(here+"/lastdate.txt","w")
@@ -75,9 +75,9 @@ def go():
     import_events(here+"/events.csv")
     if args.n:
         for task in tasks_since(read_integers()[0]):
-            print task
+            print(task)
         write_ordinal()
     else:
-        print "Igor V0.1"
-        print "Current ordinal is: {}".format(datetime.date.today().toordinal())
+        print("Igor V0.1")
+        print("Current ordinal is: {}".format(datetime.date.today().toordinal()))
         print_recent_tasks()
