@@ -13,8 +13,8 @@ class TaskDatabase():
         if id_string not in self.structure: 
             local={}
             local['firstseen']=time()
-            local['lastseen']=time()
             self.structure[id_string]=local
+        self.structure[id_string]['lastseen']=time()
 
     def age(self, id_string):
         if id_string in self.structure: 
@@ -41,9 +41,11 @@ class TaskDatabase():
 
     def prune_stale_tasks(self):
         seconds_in_day=24*60*60
+        print("Size before was {}".format(len(list(self.structure.keys()))))
         for key in list(self.structure.keys()): #it's a list because otherwise you are deleting things from an itterator
-            if time()-self.structure[key]['lastseen']:
+            if time()-self.structure[key]['lastseen']>seconds_in_day:
                 del self.structure[key] 
+        print("Size after was {}".format(len(list(self.structure.keys()))))
 
     def get_current_tasks(self):
         for task in self.todo_list: 
