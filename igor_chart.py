@@ -1,6 +1,8 @@
 import json
+import re
 import datetime
 from time import time
+from termcolor import cprint
 
 class TaskDatabase():
 
@@ -10,15 +12,17 @@ class TaskDatabase():
         self.load()
 
     def update(self, id_string):
-        if id_string not in self.structure: 
+        key=make_key(id_string)
+        if key not in self.structure: 
             local={}
             local['firstseen']=time()
-            self.structure[id_string]=local
-        self.structure[id_string]['lastseen']=time()
+            self.structure[key]=local
+        self.structure[key]['lastseen']=time()
 
     def age(self, id_string):
-        if id_string in self.structure: 
-            local=self.structure[id_string]
+        key=make_key(id_string)
+        if key in self.structure: 
+            local=self.structure[key]
             age_in_seconds=time()-local['firstseen'] 
             age_in_days=age_in_seconds/(60*60*24)
             return age_in_days
@@ -61,6 +65,23 @@ def get_todo_list():
             todo_list.append(item) 
     return todo_list
 
+def make_key(in_string):
+    in_string=re.sub('^\(.\)','',in_string)
+    in_string=re.sub(' [0-9][0-9] ','',in_string)
+    return in_string.strip()
+
+def print_tasks_by_age(todo_list): 
+    red_tasks= [task for task in todo_list if task['age']>=7] 
+    purple_tasks= [task for task in todo_list if task['age']>=3 and task['age']<7] 
+    green_tasks= [task for task in todo_list if task['age']>1 and task['age']<=3]
+    print("Purple Tasks")
+    for task in purple_tasks: 
+        cprint(task['task'],'blue')
+
+    print("Red Tasks")
+    for task in red_tasks: 
+        cprint(task['task'],'red')
+
 def write_age_of_tasks(todo_list):
     red_tasks= [task for task in todo_list if task['age']>7] 
     purple_tasks= [task for task in todo_list if task['age']>3] 
@@ -73,3 +94,4 @@ def write_age_of_tasks(todo_list):
 database=TaskDatabase("database.json")
 database.update_current_tasks(get_todo_list())
 write_age_of_tasks(database.get_current_tasks())
+print_tasks_by_age(database.get_current_tasks())

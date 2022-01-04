@@ -8,10 +8,10 @@ import os
 #1 merge this with the other graph files - make a class that records the source, destination, and time period and then works. 
 
 
-SOURCE= "priority.txt"
+SOURCE= "results.txt"
 DEST = "priority.png"
-DAYS = 3
-SMOOTHING=5
+DAYS = 4
+SMOOTHING=1
 
 class ProductivityPlotter():
   "Class designed to take a Jurgen-formatted file and turn it into a graph"
