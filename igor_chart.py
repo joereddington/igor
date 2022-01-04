@@ -56,9 +56,9 @@ class TaskDatabase():
             task['age']=self.age(task['task']) 
         return self.todo_list
 
-def get_todo_list():
+def get_todo_list(todofilename):
     todo_list=[]
-    with open("../todo.txt/todo.txt") as file:
+    with open(todofilename) as file:
         for line in file: 
             item={}
             item['task']=line.strip()
@@ -82,16 +82,21 @@ def print_tasks_by_age(todo_list):
     for task in red_tasks: 
         cprint(task['task'],'red')
 
-def write_age_of_tasks(todo_list):
+def write_age_of_tasks(todo_list,resultsname):
     red_tasks= [task for task in todo_list if task['age']>7] 
     purple_tasks= [task for task in todo_list if task['age']>3] 
     green_tasks= [task for task in todo_list if task['age']>1] 
     now = datetime.datetime.now()
     datestring=now.strftime("%Y-%m-%d")
-    with open('results.txt', 'a') as f:
+    with open(resultsname, 'a') as f:
         f.write("{}, {}, {:.0f}, {}, {},  {}\n".format(len(todo_list),datestring,time(), len(green_tasks),len(purple_tasks),len(red_tasks)))
 
-database=TaskDatabase("database.json")
-database.update_current_tasks(get_todo_list())
-write_age_of_tasks(database.get_current_tasks())
-print_tasks_by_age(database.get_current_tasks())
+
+def run(todofilename,databasename,resultsname):
+    database=TaskDatabase(databasename)
+    database.update_current_tasks(get_todo_list(todofilename))
+    write_age_of_tasks(database.get_current_tasks(),resultsname)
+    print_tasks_by_age(database.get_current_tasks())
+
+run("../todo.txt/todo.txt","database.json","results.txt")
+run("../todo.txt/eqt.todo.txt","eqt.database.json","eqt.results.txt")
