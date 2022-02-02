@@ -8,10 +8,10 @@ import os
 #1 merge this with the other graph files - make a class that records the source, destination, and time period and then works. 
 
 
-SOURCE= "results.txt"
-DEST = "priority.png"
-DAYS = 4
-SMOOTHING=1
+SOURCE= "/Volumes/Crucial X8/git/igor/eqt.results.txt"
+DEST = "/Volumes/Crucial X8/git/igor/eqt.priority.png"
+DAYS = 21
+SMOOTHING=4
 
 class ProductivityPlotter():
   "Class designed to take a Jurgen-formatted file and turn it into a graph"
@@ -37,9 +37,9 @@ class ProductivityPlotter():
       #the array we have is going to be horizonal when we need vertical. So we have to deal with that. 
       for rawline in file:
         splitline=rawline.split(',')
-        dayold.insert(0,int(splitline[4]))
-        threedayold.insert(0,int(splitline[5]))
-        weekold.insert(0,int(splitline[3]))
+        dayold.insert(0,int(splitline[3]))
+        threedayold.insert(0,int(splitline[4]))
+        weekold.insert(0,int(splitline[5]))
         seconds.insert(0,int(splitline[2]))
         now.insert(0,int(splitline[0]))
         count=count+1 
@@ -58,8 +58,8 @@ class ProductivityPlotter():
     plt.plot(x,yweek, 'red')
     currenttime=int(seconds[0])
     lastweek=self.myround(currenttime-self.days*24*3600)
-    plt.xlim(lastweek, currenttime-1000)
-    plt.ylim(ymax=500)
+    plt.xlim(lastweek, currenttime-10)
+    plt.ylim(ymax=100)
     ticks=np.arange(lastweek,currenttime,24*3600)
     labels=[time.strftime("%a", time.gmtime(x)) for x in ticks]
     plt.xticks(ticks,labels)
