@@ -12,6 +12,6 @@ grep "EQT" vision.txt >> sorted.eqt
 grep -v "EQT" vision.txt >> sorted.all
 rm vision.txt
 # End vision section
-mv sorted.all todo.txt
-mv sorted.eqt eqt.todo.txt
+sort sorted.all | uniq > todo.txt
+sort sorted.eqt | uniq > eqt.todo.txt
 rm igor.txt
