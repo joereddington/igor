@@ -52,6 +52,7 @@ class ProductivityPlotter():
     yday  = self.smooth(np.array(dayold))
     y3day = self.smooth(np.array(threedayold))
     yweek = self.smooth(np.array(weekold))
+    plt.figure(dpi=250)    
     plt.plot(x,ynow, 'blue')
     plt.plot(x,yday, 'green')
     plt.plot(x,y3day,'purple')
@@ -59,8 +60,12 @@ class ProductivityPlotter():
     currenttime=int(seconds[0])
     lastweek=self.myround(currenttime-self.days*24*3600)
     plt.xlim(lastweek, currenttime-10)
-    plt.ylim(ymax=100)
+    plt.ylim(top=100, bottom=0)
     ticks=np.arange(lastweek,currenttime,24*3600)
+    plt.ylabel('Size of list', fontsize=12)
+    plt.xlabel('Day', fontsize=12)
+    plt.xticks(fontsize=6)
+    plt.rc('font', family='serif', size=20)   
     labels=[time.strftime("%a", time.gmtime(x)) for x in ticks]
     plt.xticks(ticks,labels)
     plt.grid()
@@ -69,7 +74,7 @@ class ProductivityPlotter():
   def get_graph(self):
     a=self.processFile()
     self.graph(a[0],a[1],a[2],a[3],a[4])
-    print "%s written with output from %s"%(self.dest, self.source)
+    print("%s written with output from %s"%(self.dest, self.source))
 
 if __name__ == "__main__":
   a=ProductivityPlotter(SOURCE,DEST,DAYS)
