@@ -9,7 +9,7 @@ import os
 
 
 SOURCE= "/Volumes/Crucial X8/git/igor/eqt.results.txt"
-DEST = "/Volumes/Crucial X8/git/igor/eqt.priority.png"
+DEST = "/Volumes/Crucial X8/git/todo.txt/eqt.priority.png"
 DAYS = 21
 SMOOTHING=4
 
@@ -52,7 +52,7 @@ class ProductivityPlotter():
     yday  = self.smooth(np.array(dayold))
     y3day = self.smooth(np.array(threedayold))
     yweek = self.smooth(np.array(weekold))
-    plt.figure(dpi=250)    
+    plt.figure(dpi=150)    
     plt.plot(x,ynow, 'blue')
     plt.plot(x,yday, 'green')
     plt.plot(x,y3day,'purple')
@@ -77,7 +77,13 @@ class ProductivityPlotter():
     print("%s written with output from %s"%(self.dest, self.source))
 
 if __name__ == "__main__":
-  a=ProductivityPlotter(SOURCE,DEST,DAYS)
-  a.get_graph()
+    SOURCE= "/Volumes/Crucial X8/git/igor/eqt.results.txt"
+    DEST = "/Volumes/Crucial X8/git/todo.txt/eqt.priority.png"
+    a=ProductivityPlotter(SOURCE,DEST,DAYS)
+    a.get_graph()
+    SOURCE= "/Volumes/Crucial X8/git/igor/results.txt"
+    DEST = "/Volumes/Crucial X8/git/todo.txt/priority.png"
+    a=ProductivityPlotter(SOURCE,DEST,DAYS)
+    a.get_graph()
 
 

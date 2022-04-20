@@ -1,8 +1,9 @@
 1, (A) 1. Looking for urgent: Check Calendar and reminders and notebooks  @singleton +PlanningAndTracking Time:20
 6, (B) Make sure the github issues are in the right columns +Overhead https://github.com/users/joereddington/projects/1#card-30279917 +EQT
-6, (B) Make sure that all open github issues are in a project (use "no:project")+Overhead https://github.com/users/joereddington/projects/1#card-30279917 +EQT
+6, (B) Make sure that all open github issues are in  the priority project with https://github.com/eQualityTime/Public/issues?q=is%3Aopen+is%3Aissue+-project%3AeQualityTime%2F4+
 7, (C) Review and rescore  Wheel Of life
 7, (C) Review the feedbacks from Kat and follow up
+7, (C) Organise the fridge completely. 
 7, (C) Make a note of the gas reading
 1, (C) 1. Process Email @singleton +Overhead @phone  Time:90
 1, (C) 2. Switch to live account and start streaming +EQT @singleton Time:99
@@ -18,9 +19,10 @@
 30, (E) Backup Dreamhost +EQT
 4, (E) Check Voicemail  +Overhead @nova  @phone  Time:02 
 30, (E) Check ranking scripts +Overhead
-4, (E) Check that everything in the 'in process' box really does have a task+Overhead @nova 
+4, (E) Check that everything in the 'in process' box really does have a task+Overhead @nova  +EQT
 10, (E) Empty whatsapp and facebook inboxes. +Overhead Time:20 
 7, (E) Check the last time §e:U2FsdGVkX18e4dSc7UPajr6opVoESIiCeqyZawbCs2Q=§ called you +Family @phone  Time:03 
+7, (E) Any Chocolate should be in the car (assuming winter)  
 7, (E) Check the next school time +EQT Time:03 
 30, (E) Check wishlist, add bits you want, remove gifts you don't Time:10 @phone +overhead
 15, (E) Check £40 in Wallet +Overhead @nova  @phone 
@@ -31,6 +33,7 @@
 7, (E) Do Menu for the week +Family @nova @phone  Time:01 
 9, (E) Do something genuinely nice for §e:U2FsdGVkX1/jHkQjxS8m0DEs/epwc3SIRl2yYxHMBzc=§ +Family
 30, (E) Download the amazon months sales figures +EQT
+30, (E) Make sure that there is a 'read book X' task on the projects board - it's relaxing. 
 7, (E) Empty Joe inbox completely +Overhead @nova  Time:15 
 3, (E) Floss +Health @nova  Time:05
 200, (E) Get Flu vaxine +Health
