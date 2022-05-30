@@ -53,6 +53,7 @@ def display(todofilename,databasename,resultsname):
     database.update_current_tasks(get_todo_list(todofilename))
     write_age_of_tasks(database.get_current_tasks(),resultsname)
     print_tasks_by_age(database.get_current_tasks())
+    database.get_oldest()
 
 
 

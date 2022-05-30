@@ -13,6 +13,8 @@ class igor_chart_test(TestCase):
     def test_key2(self):
         result=igor_chart.make_key("(A) 05 Hopeful")        
         self.assertEqual(result,"Hopeful")
+
+
         
 # what do I need to write tests for? 
 # return the ordinal for a date

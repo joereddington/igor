@@ -3,7 +3,7 @@ cd "$(dirname "$0")"
 cd ../todo.txt
 cat todo.txt > sorted.all
 cat eqt.todo.txt > sorted.eqt
-../igor/igor -n > igor.txt
+python3 ../igor/igor -n > igor.txt
 grep "EQT" igor.txt >> sorted.eqt
 grep -v "EQT" igor.txt >> sorted.all
 # Vision section

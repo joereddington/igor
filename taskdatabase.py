@@ -33,6 +33,19 @@ class TaskDatabase():
             return age_in_days
         return -1 #TODO throw an error here
 
+    def get_oldest(self):
+        task_list=list(self.structure.values()) 
+
+        oldest=min(task_list, key=lambda x:x['firstseen'])
+        print(oldest)
+        age_of_oldest=oldest['firstseen']
+        for task in self.structure.keys():
+            if self.structure[task]['firstseen']==age_of_oldest:
+                print("The task \"{}\" is {:.0f} days old".format(task,self.age(task))) 
+        else: 
+            print("Nothing found")
+        return task
+
     def save(self):
         with open(self.filename, 'w') as filehandle:
             json.dump(self.structure, filehandle)
