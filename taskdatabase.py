@@ -34,9 +34,9 @@ class TaskDatabase():
         return -1 #TODO throw an error here
 
     def get_oldest(self):
-        task_list=list(self.structure.values()) 
-
-        oldest=min(task_list, key=lambda x:x['firstseen'])
+        task_list=self.get_current_tasks()
+        
+        oldest=min(task_list, key=lambda x:x['age'])
         print(oldest)
         age_of_oldest=oldest['firstseen']
         for task in self.structure.keys():
