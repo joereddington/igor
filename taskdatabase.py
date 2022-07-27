@@ -35,16 +35,9 @@ class TaskDatabase():
 
     def get_oldest(self):
         task_list=self.get_current_tasks()
-        
-        oldest=min(task_list, key=lambda x:x['age'])
-        print(oldest)
-        age_of_oldest=oldest['firstseen']
-        for task in self.structure.keys():
-            if self.structure[task]['firstseen']==age_of_oldest:
-                print("The task \"{}\" is {:.0f} days old".format(task,self.age(task))) 
-        else: 
-            print("Nothing found")
-        return task
+        oldest=max(task_list, key=lambda x:x['age'])
+        print("The task \"{}\" is {:.0f} days old".format(oldest['task'],oldest['age']))
+        return oldest
 
     def save(self):
         with open(self.filename, 'w') as filehandle:

@@ -11,7 +11,6 @@ def get_todo_list(todofilename):
     todo_list=[]
     with open(todofilename) as file:
         for line in file: 
-            print("there's a comment" )
             if "#" in line or len(line)<3:
                 pass
             else:
