@@ -52,6 +52,22 @@ class igor_test(TestCase):
         end=15
         tasks=igor.tasks_since(start,end)
         self.assertEqual(len(tasks),10)
+
+    def test_extract_number():
+        input_string = ") is 42 and the second number is 1234"
+        expected_output = 42
+        assert extract_number(input_string) == expected_output
+
+        input_string = "The number is 1"
+        expected_output = 1
+        assert extract_number(input_string) == expected_output
+
+        input_string = "No number found"
+        expected_output = None
+        assert extract_number(input_string) == expected_output
+
+
+
         
 # what do I need to write tests for? 
 # return the ordinal for a date

@@ -24,6 +24,14 @@ class TaskDatabase():
             self.structure[key]=local
         self.structure[key]['lastseen']=time()
 
+    def total_time(self):
+        total_time_in_minutes=0
+        for task in self.todo_list: 
+
+            task['time']=self.age(task['task']) 
+        return self.todo_list
+
+
     def age(self, id_string):
         key=make_key(id_string)
         if key in self.structure: 
