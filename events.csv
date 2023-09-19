@@ -1,7 +1,7 @@
 6, (D) Send something to the grandparent whatsapp group  https://github.com/users/joereddington/projects/5#column-6773919
-30, Run multi-git-status on both aws servers to make sure all code is uploaded.  +EQT
-50, Run the OBZ archive command and save to an external drive.  +EQT
-70, Check that IMPS will run locally and that it can sync up.  +EQT
+30, (C) Run multi-git-status on both aws servers to make sure all code is uploaded.  +EQT
+50, (C) Run the OBZ archive command and save to an external drive.  +EQT
+70, (C) Check that IMPS will run locally and that it can sync up.  +EQT
 1, (C) 3. Bring work timesheet into balance @singleton https://github.com/orgs/eQualityTime/projects/4#card-30279938
 7, (C) Review the feedbacks from Kat and follow up https://github.com/joereddington/Projects-Private/issues/171 
 6, (B) Make sure that all open github issues are in  the priority project with https://github.com/eQualityTime/Public/issues?q=is%3Aopen+is%3Aissue+-project%3AeQualityTime%2F4+
@@ -69,3 +69,4 @@
 30, (E) Write Moonpig cards for this month +Overhead
 30, (E) Check Passports are in the safe
 250, (E) share your gift policy on the social networks.    @phone 
+100, (C) 10 Year plan: check you have 5 projects in each part

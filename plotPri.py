@@ -8,9 +8,9 @@ import os
 #1 merge this with the other graph files - make a class that records the source, destination, and time period and then works. 
 
 
-SOURCE= "/Volumes/Crucial X8/git/igor/eqt.results.txt"
-DEST = "/Volumes/Crucial X8/git/todo.txt/eqt.priority.png"
-DAYS = 21
+SOURCE= "eqt.results.txt"
+DEST = "../todo.txt/eqt.priority.png"
+DAYS = 7
 SMOOTHING=4
 
 class ProductivityPlotter():
@@ -37,12 +37,19 @@ class ProductivityPlotter():
       #the array we have is going to be horizonal when we need vertical. So we have to deal with that. 
       for rawline in file:
         splitline=rawline.split(',')
-        dayold.insert(0,int(splitline[3]))
-        threedayold.insert(0,int(splitline[4]))
-        weekold.insert(0,int(splitline[5]))
-        seconds.insert(0,int(splitline[2]))
-        now.insert(0,int(splitline[0]))
-        count=count+1 
+        try: 
+            dayold.insert(0,int(splitline[3]))
+            threedayold.insert(0,int(splitline[4]))
+            weekold.insert(0,int(splitline[5]))
+            seconds.insert(0,int(splitline[2]))
+            now.insert(0,int(splitline[0].strip()))
+            count=count+1 
+        except ValueError:
+            print("XXXX")
+            print(rawline)
+            print(splitline) 
+            print(splitline[0]) 
+            print("YYYY")
     return (seconds,now,dayold,threedayold,weekold)
 
   def graph(self,seconds,now, dayold, threedayold,weekold):
@@ -77,12 +84,12 @@ class ProductivityPlotter():
     print("%s written with output from %s"%(self.dest, self.source))
 
 if __name__ == "__main__":
-    SOURCE= "/Volumes/Crucial X8/git/igor/eqt.results.txt"
-    DEST = "/Volumes/Crucial X8/git/todo.txt/eqt.priority.png"
+    SOURCE= "eqt.results.txt"
+    DEST = "../todo.txt/eqt.priority.png"
     a=ProductivityPlotter(SOURCE,DEST,DAYS)
     a.get_graph()
-    SOURCE= "/Volumes/Crucial X8/git/igor/results.txt"
-    DEST = "/Volumes/Crucial X8/git/todo.txt/priority.png"
+    SOURCE= "results.txt"
+    DEST = "../todo.txt/priority.png"
     a=ProductivityPlotter(SOURCE,DEST,DAYS)
     a.get_graph()
 

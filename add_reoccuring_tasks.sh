@@ -14,4 +14,6 @@ rm vision.txt
 # End vision section
 sort sorted.all | uniq > todo.txt
 sort sorted.eqt | uniq > eqt.todo.txt
+rm sorted.all 
+rm sorted.eqt
 rm igor.txt
