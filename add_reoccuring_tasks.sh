@@ -7,10 +7,10 @@ cat eqt.todo.txt > sorted.eqt
 grep "EQT" igor.txt >> sorted.eqt
 grep -v "EQT" igor.txt >> sorted.all
 # Vision section
-python3 ../vision/vision.py -d > vision.txt
-grep "EQT" vision.txt >> sorted.eqt
-grep -v "EQT" vision.txt >> sorted.all
-rm vision.txt
+#python3 ../vision/vision.py -d > vision.txt
+#grep "EQT" vision.txt >> sorted.eqt
+#grep -v "EQT" vision.txt >> sorted.all
+#rm vision.txt
 # End vision section
 mv sorted.all todo.txt
 mv sorted.eqt eqt.todo.txt
