@@ -15,6 +15,7 @@ class TaskDatabase():
         self.filename=filename
         self.structure={}
         self.load()
+        self.todo_list=[]
 
     def update(self, id_string):
         key=make_key(id_string)
@@ -56,7 +57,10 @@ class TaskDatabase():
             self.structure = json.load(filehandle)
 
     def update_current_tasks(self,todo_list): 
+        print("here with")
+        print(todo_list)
         self.todo_list=todo_list
+        print(self.todo_list)
         for task in todo_list: 
             self.update(task['task'])
         self.prune_stale_tasks()
@@ -71,6 +75,7 @@ class TaskDatabase():
         print("Size after was {}".format(len(list(self.structure.keys()))))
 
     def get_current_tasks(self):
+        print("Get_current_tasks")
         for task in self.todo_list: 
             task['age']=self.age(task['task']) 
         return self.todo_list

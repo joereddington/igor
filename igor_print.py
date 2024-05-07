@@ -47,16 +47,36 @@ def write_age_of_tasks(todo_list,resultsname):
         f.write("{}, {}, {:.0f}, {}, {},  {}\n".format(len(todo_list),datestring,time(), len(green_tasks),len(purple_tasks),len(red_tasks)))
 
 
-def display(todofilename,databasename,resultsname):
-    database=TaskDatabase(databasename)
-    database.update_current_tasks(get_todo_list(todofilename))
+def display(database,resultsname):
     write_age_of_tasks(database.get_current_tasks(),resultsname)
     print_tasks_by_age(database.get_current_tasks())
     database.get_oldest()
 
+def combined_write():
+    all_tasks=[]
+    all_tasks.extend(database.get_current_tasks())
+    all_tasks.extend(rhul_database.get_current_tasks())
+    all_tasks.extend(eqt_database.get_current_tasks())
+    write_age_of_tasks(all_tasks,script_path+"all.results.txt")
+    database.get_oldest()
 
 
 from pathlib import Path
+
 script_path = os.path.dirname(os.path.abspath(__file__))+"/"
-display(script_path+"../todo.txt/todo.txt",script_path+"database.json",script_path+"results.txt")
-display(script_path+"../todo.txt/eqt.todo.txt",script_path+"eqt.database.json",script_path+"eqt.results.txt")
+
+database=TaskDatabase(script_path+"database.json")
+database.update_current_tasks(get_todo_list(script_path+"../todo.txt/todo.txt"))
+rhul_database=TaskDatabase(script_path+"rhul.database.json")
+rhul_database.update_current_tasks(get_todo_list(script_path+"../diary/rhul.todo.txt"))
+eqt_database=TaskDatabase(script_path+"eqt.database.json")
+eqt_database.update_current_tasks(get_todo_list(script_path+"../todo.txt/eqt.todo.txt"))
+
+print("XXX")
+print(database.get_current_tasks())
+print("XXX")
+
+display(database,script_path+"results.txt")
+display(rhul_database,script_path+"rhul.results.txt")
+display(eqt_database,script_path+"eqt.results.txt")
+combined_write()

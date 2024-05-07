@@ -10,7 +10,7 @@ import os
 
 SOURCE= "eqt.results.txt"
 DEST = "../todo.txt/eqt.priority.png"
-DAYS = 7
+DAYS = 3
 SMOOTHING=4
 
 class ProductivityPlotter():
@@ -88,9 +88,21 @@ if __name__ == "__main__":
     DEST = "../todo.txt/eqt.priority.png"
     a=ProductivityPlotter(SOURCE,DEST,DAYS)
     a.get_graph()
+    print("EQT graph done")
     SOURCE= "results.txt"
     DEST = "../todo.txt/priority.png"
     a=ProductivityPlotter(SOURCE,DEST,DAYS)
     a.get_graph()
+    print("personal graph done")
+    SOURCE= "rhul.results.txt"
+    DEST = "../todo.txt/rhul.priority.png"
+    a=ProductivityPlotter(SOURCE,DEST,DAYS)
+    a.get_graph()
+    print("rhul graph done")
+    SOURCE= "all.results.txt"
+    DEST = "../todo.txt/all.priority.png"
+    a=ProductivityPlotter(SOURCE,DEST,DAYS)
+    a.get_graph()
+    print("all graph done")
 
 
