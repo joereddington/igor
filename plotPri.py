@@ -11,7 +11,7 @@ import os
 SOURCE= "eqt.results.txt"
 DEST = "../todo.txt/eqt.priority.png"
 DAYS = 3
-SMOOTHING=4
+SMOOTHING=1
 
 class ProductivityPlotter():
   "Class designed to take a Jurgen-formatted file and turn it into a graph"
@@ -69,13 +69,19 @@ class ProductivityPlotter():
     plt.xlim(lastweek, currenttime-10)
     plt.ylim(top=100, bottom=0)
     ticks=np.arange(lastweek,currenttime,24*3600)
+    # Minor ticks every 6 hours (4 segments per day)
+    minor_ticks = np.arange(lastweek, currenttime, 6 * 3600)
+        
     plt.ylabel('Size of list', fontsize=12)
     plt.xlabel('Day', fontsize=12)
     plt.xticks(fontsize=6)
     plt.rc('font', family='serif', size=20)   
     labels=[time.strftime("%a", time.gmtime(x)) for x in ticks]
     plt.xticks(ticks,labels)
-    plt.grid()
+    plt.gca().set_xticks(minor_ticks, minor=True)
+    plt.grid(which='major', color='gray', linestyle='-')
+    plt.grid(which='minor', color='gray', linestyle=':', alpha=0.5)
+      
     plt.savefig(self.dest)
 
   def get_graph(self):

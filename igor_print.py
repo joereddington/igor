@@ -72,10 +72,6 @@ rhul_database.update_current_tasks(get_todo_list(script_path+"../diary/rhul.todo
 eqt_database=TaskDatabase(script_path+"eqt.database.json")
 eqt_database.update_current_tasks(get_todo_list(script_path+"../todo.txt/eqt.todo.txt"))
 
-print("XXX")
-print(database.get_current_tasks())
-print("XXX")
-
 display(database,script_path+"results.txt")
 display(rhul_database,script_path+"rhul.results.txt")
 display(eqt_database,script_path+"eqt.results.txt")

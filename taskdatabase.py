@@ -57,10 +57,7 @@ class TaskDatabase():
             self.structure = json.load(filehandle)
 
     def update_current_tasks(self,todo_list): 
-        print("here with")
-        print(todo_list)
         self.todo_list=todo_list
-        print(self.todo_list)
         for task in todo_list: 
             self.update(task['task'])
         self.prune_stale_tasks()
@@ -68,14 +65,13 @@ class TaskDatabase():
 
     def prune_stale_tasks(self):
         seconds_in_day=24*60*60
-        print("Size before was {}".format(len(list(self.structure.keys()))))
+        print("Size before pruning database of stale tasks was {}".format(len(list(self.structure.keys()))))
         for key in list(self.structure.keys()): #it's a list because otherwise you are deleting things from an itterator
             if time()-self.structure[key]['lastseen']>seconds_in_day:
                 del self.structure[key] 
         print("Size after was {}".format(len(list(self.structure.keys()))))
 
     def get_current_tasks(self):
-        print("Get_current_tasks")
         for task in self.todo_list: 
             task['age']=self.age(task['task']) 
         return self.todo_list
