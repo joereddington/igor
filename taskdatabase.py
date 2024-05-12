@@ -50,7 +50,7 @@ class TaskDatabase():
 
     def save(self):
         with open(self.filename, 'w') as filehandle:
-            json.dump(self.structure, filehandle)
+            json.dump(self.structure, filehandle, indent=4)
     
     def load(self):
         with open(self.filename, 'r') as filehandle:
