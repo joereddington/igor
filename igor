@@ -1,7 +1,0 @@
-#!/usr/bin/env python
-import igor
-import argparse
-
-
-igor.args=igor.setup_argument_list()
-igor.go()

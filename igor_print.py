@@ -58,21 +58,23 @@ def combined_write():
     all_tasks.extend(rhul_database.get_current_tasks())
     all_tasks.extend(eqt_database.get_current_tasks())
     write_age_of_tasks(all_tasks,script_path+"all.results.txt")
-    database.get_oldest()
 
 
 from pathlib import Path
 
 script_path = os.path.dirname(os.path.abspath(__file__))+"/"
 
-database=TaskDatabase(script_path+"database.json")
+database=TaskDatabase(script_path+"databases/database.json") #Main database
 database.update_current_tasks(get_todo_list(script_path+"../todo.txt/todo.txt"))
-rhul_database=TaskDatabase(script_path+"rhul.database.json")
+rhul_database=TaskDatabase(script_path+"databases/rhul.database.json")
 rhul_database.update_current_tasks(get_todo_list(script_path+"../diary/rhul.todo.txt"))
-eqt_database=TaskDatabase(script_path+"eqt.database.json")
+eqt_database=TaskDatabase(script_path+"databases/eqt.database.json")
 eqt_database.update_current_tasks(get_todo_list(script_path+"../todo.txt/eqt.todo.txt"))
 
-display(database,script_path+"results.txt")
-display(rhul_database,script_path+"rhul.results.txt")
-display(eqt_database,script_path+"eqt.results.txt")
+display(database,script_path+"outputs/results.txt")
+print("----------------------------------")
+display(rhul_database,script_path+"outputs/rhul.results.txt")
+print("----------------------------------")
+display(eqt_database,script_path+"outputs/eqt.results.txt")
+print("----------------------------------")
 combined_write()

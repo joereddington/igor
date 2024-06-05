@@ -1,0 +1,158 @@
+{
+    "OVF - Fix the 'click for debugging information' always being present": {
+        "firstseen": 1715061601.968009,
+        "lastseen": 1717594801.5042484
+    },
+    "Create a new EQuality time newsletter and send it to the people": {
+        "firstseen": 1715681701.3909664,
+        "lastseen": 1717593301.5219774
+    },
+    "One hour working on Igor: full set of tests and then steps to start doing automatic project reminders": {
+        "firstseen": 1716295159.3147702,
+        "lastseen": 1717664401.681062
+    },
+    "Run the OBZ archive command and save to an external drive.  +EQT (details at 12/12/22)  @tower": {
+        "firstseen": 1716295159.3147733,
+        "lastseen": 1717610401.2996924
+    },
+    "Process the littlefinger transactions": {
+        "firstseen": 1716295159.3147812,
+        "lastseen": 1717664401.6810656
+    },
+    "mention Supertitle and Digital Local Heros to like, ten, people at RHUL": {
+        "firstseen": 1716295159.3147888,
+        "lastseen": 1717664401.6810827
+    },
+    "Lookup when you are giving the U3A talk": {
+        "firstseen": 1716295159.3147912,
+        "lastseen": 1717664401.681069
+    },
+    "Review the cm2_knownteachers emails on @tower": {
+        "firstseen": 1716295159.314794,
+        "lastseen": 1717610401.29973
+    },
+    "A Compare the external drive to bigdisk (and then the other external drive), then reformat it and put it in the safe   @tower": {
+        "firstseen": 1716301201.4245706,
+        "lastseen": 1717610401.299697
+    },
+    "Send the OVF emails": {
+        "firstseen": 1716302401.6019917,
+        "lastseen": 1717664401.6810722
+    },
+    "Run mgit status on the git directory and process all alerts +EQT": {
+        "firstseen": 1716798001.3253343,
+        "lastseen": 1717596001.5874114
+    },
+    "Run multi-git-status on both aws servers to make sure all code is uploaded.  +EQT": {
+        "firstseen": 1716798001.3253412,
+        "lastseen": 1717597201.3339186
+    },
+    "Do full accounts algorithm +EQT": {
+        "firstseen": 1716798001.325357,
+        "lastseen": 1717597801.7349474
+    },
+    "Backup AWS +EQT": {
+        "firstseen": 1716798001.3253672,
+        "lastseen": 1717664401.681075
+    },
+    "Check that everything in the 'in process' box really does have a task+Overhead   +EQT": {
+        "firstseen": 1716798001.3253715,
+        "lastseen": 1717594201.1363277
+    },
+    "Check the next school time +EQT": {
+        "firstseen": 1716798001.3253746,
+        "lastseen": 1717593301.522012
+    },
+    "Download the amazon months sales figures +EQT": {
+        "firstseen": 1716798001.325378,
+        "lastseen": 1717593601.7346354
+    },
+    "Grant terms generally mean that every director has to have seen all of the paperwork: make sure they have +EQT": {
+        "firstseen": 1716798001.3253825,
+        "lastseen": 1717594801.5042624
+    },
+    "Learn something new about vim in http://learnvimscriptthehardway.stevelosh.com/chapters/17.html +EQT": {
+        "firstseen": 1716798001.3253896,
+        "lastseen": 1717594801.5042694
+    },
+    "Make sure that there is a 'read book X' task on the projects board - it's relaxing.  +EQT": {
+        "firstseen": 1716798001.325397,
+        "lastseen": 1717595401.363012
+    },
+    "Make sure you have a continual professional developement practice happening  +EQT": {
+        "firstseen": 1716798001.325401,
+        "lastseen": 1717595401.3630157
+    },
+    "Open list of projects to be funded +EQT": {
+        "firstseen": 1716798001.3254082,
+        "lastseen": 1717593301.522035
+    },
+    "Post to WWW facebook page +EQT  @phone": {
+        "firstseen": 1716798001.3254118,
+        "lastseen": 1717610401.299724
+    },
+    "Process the 'to put in Evernote' folder and add to database +Overhead   +EQT": {
+        "firstseen": 1716798001.325418,
+        "lastseen": 1717598701.7270734
+    },
+    "Read the last www book  +EQT": {
+        "firstseen": 1716798001.3254213,
+        "lastseen": 1717664401.681086
+    },
+    "Review starred items in feeds +Overhead +EQT": {
+        "firstseen": 1716798001.3254247,
+        "lastseen": 1717595401.3630326
+    },
+    "Ring up every funder currently funding you and be nice to them and check you have all of your paperwork and everything else. Make sure that you are a pleasure to work with. That way they fund you again +EQT": {
+        "firstseen": 1716798001.3254335,
+        "lastseen": 1717593301.52205
+    },
+    "Search for funding for eQuality Time Projects +EQT": {
+        "firstseen": 1716798001.325437,
+        "lastseen": 1717598701.7270796
+    },
+    "Do the Journal entry for OVF funds": {
+        "firstseen": 1716962401.7504642,
+        "lastseen": 1717597201.333905
+    },
+    "Send out newsletter": {
+        "firstseen": 1717160401.4198124,
+        "lastseen": 1717593301.5219798
+    },
+    "Run backup on tower again": {
+        "firstseen": 1717480801.9630597,
+        "lastseen": 1717597201.3339083
+    },
+    "Fix issue with copying from terminal": {
+        "firstseen": 1717480801.9630623,
+        "lastseen": 1717594801.5042584
+    },
+    "import the known teachers emails": {
+        "firstseen": 1717569601.5294662,
+        "lastseen": 1717610401.2997143
+    },
+    "Fix this https://theopenvoicefactory.org/fail.html?hash=8f7f830c9e56aa23bd2f6a1dc0c1ae6e&filename=FYP-intro.pptx&debugging=": {
+        "firstseen": 1717593601.7346275,
+        "lastseen": 1717664401.6810791
+    },
+    "OVF - Fix the 'click for debugging information' always being presen": {
+        "firstseen": 1717595101.8958445,
+        "lastseen": 1717595401.3629947
+    },
+    "OVF Create a example that produces a lot of debugging information": {
+        "firstseen": 1717596001.5842786,
+        "lastseen": 1717664401.6810572
+    },
+    "x 2024-06-05 Run mgit status on the git directory and process all alerts +EQT": {
+        "firstseen": 1717596207.5979984,
+        "lastseen": 1717597201.333912
+    },
+    "x 2024-06-05 Run backup on tower again": {
+        "firstseen": 1717597801.7332673,
+        "lastseen": 1717597801.7349315
+    },
+    "Work out which cm2_known_teachers script we are using and delete the others": {
+        "firstseen": 1717664331.580961,
+        "lastseen": 1717664401.6810896
+    }
+}

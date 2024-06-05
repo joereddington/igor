@@ -90,22 +90,22 @@ class ProductivityPlotter():
     print("%s written with output from %s"%(self.dest, self.source))
 
 if __name__ == "__main__":
-    SOURCE= "eqt.results.txt"
+    SOURCE= "outputs/eqt.results.txt"
     DEST = "../todo.txt/eqt.priority.png"
     a=ProductivityPlotter(SOURCE,DEST,DAYS)
     a.get_graph()
     print("EQT graph done")
-    SOURCE= "results.txt"
+    SOURCE= "outputs/results.txt"
     DEST = "../todo.txt/priority.png"
     a=ProductivityPlotter(SOURCE,DEST,DAYS)
     a.get_graph()
     print("personal graph done")
-    SOURCE= "rhul.results.txt"
+    SOURCE= "outputs/rhul.results.txt"
     DEST = "../todo.txt/rhul.priority.png"
     a=ProductivityPlotter(SOURCE,DEST,DAYS)
     a.get_graph()
     print("rhul graph done")
-    SOURCE= "all.results.txt"
+    SOURCE= "outputs/all.results.txt"
     DEST = "../todo.txt/all.priority.png"
     a=ProductivityPlotter(SOURCE,DEST,DAYS)
     a.get_graph()
