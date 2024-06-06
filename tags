@@ -1,0 +1,87 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/joe/git/igor/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+DAYS	plot_stress_charts.py	/^DAYS = 3$/;"	v
+DEST	plot_stress_charts.py	/^    DEST = "..\/todo.txt\/all.priority.png"$/;"	v
+DEST	plot_stress_charts.py	/^    DEST = "..\/todo.txt\/eqt.priority.png"$/;"	v
+DEST	plot_stress_charts.py	/^    DEST = "..\/todo.txt\/priority.png"$/;"	v
+DEST	plot_stress_charts.py	/^    DEST = "..\/todo.txt\/rhul.priority.png"$/;"	v
+DEST	plot_stress_charts.py	/^DEST = "..\/todo.txt\/eqt.priority.png"$/;"	v
+ProductivityPlotter	plot_stress_charts.py	/^class ProductivityPlotter():$/;"	c
+SMOOTHING	plot_stress_charts.py	/^SMOOTHING=1$/;"	v
+SOURCE	plot_stress_charts.py	/^    SOURCE= "outputs\/all.results.txt"$/;"	v
+SOURCE	plot_stress_charts.py	/^    SOURCE= "outputs\/eqt.results.txt"$/;"	v
+SOURCE	plot_stress_charts.py	/^    SOURCE= "outputs\/results.txt"$/;"	v
+SOURCE	plot_stress_charts.py	/^    SOURCE= "outputs\/rhul.results.txt"$/;"	v
+SOURCE	plot_stress_charts.py	/^SOURCE= "eqt.results.txt"$/;"	v
+TaskDatabase	taskdatabase.py	/^class TaskDatabase():$/;"	c
+__init__	plot_stress_charts.py	/^  def __init__(self,source,dest,days):$/;"	m	class:ProductivityPlotter
+__init__	taskdatabase.py	/^    def __init__(self,filename):$/;"	m	class:TaskDatabase
+a	plot_stress_charts.py	/^    a=ProductivityPlotter(SOURCE,DEST,DAYS)$/;"	v
+age	taskdatabase.py	/^    def age(self, id_string):$/;"	m	class:TaskDatabase
+args	art.py	/^args={}$/;"	v
+art_test	test_art.py	/^class art_test(TestCase):$/;"	c
+art_test	test_igor.py	/^class art_test(TestCase):$/;"	c
+combined_write	igor_print.py	/^def combined_write():$/;"	f
+database	igor_print.py	/^database=TaskDatabase(script_path+"databases\/database.json") #Main database$/;"	v
+display	igor_print.py	/^def display(database,resultsname):$/;"	f
+eqt_database	igor_print.py	/^eqt_database=TaskDatabase(script_path+"databases\/eqt.database.json")$/;"	v
+find_two_digit_number	how_long_to_complete_a_todo_list.py	/^def find_two_digit_number(line):$/;"	f
+get_current_tasks	taskdatabase.py	/^    def get_current_tasks(self):$/;"	m	class:TaskDatabase
+get_graph	plot_stress_charts.py	/^  def get_graph(self):$/;"	m	class:ProductivityPlotter
+get_oldest	taskdatabase.py	/^    def get_oldest(self):$/;"	m	class:TaskDatabase
+get_todo_list	igor_print.py	/^def get_todo_list(todofilename):$/;"	f
+go	art.py	/^def go(): #? Where is this called? $/;"	f
+graph	plot_stress_charts.py	/^  def graph(self,seconds,now, dayold, threedayold,weekold):$/;"	m	class:ProductivityPlotter
+here	art.py	/^here= os.path.dirname(os.path.realpath(__file__))$/;"	v
+igor_chart_test	test_igor_charts.py	/^class igor_chart_test(TestCase):$/;"	c
+import_events	art.py	/^def import_events(filename):$/;"	f
+load	taskdatabase.py	/^    def load(self):$/;"	m	class:TaskDatabase
+main	how_long_to_complete_a_todo_list.py	/^def main():$/;"	f
+make_key	taskdatabase.py	/^def make_key(in_string):$/;"	f
+minutes_to_hours_and_minutes	how_long_to_complete_a_todo_list.py	/^def minutes_to_hours_and_minutes(minutes):$/;"	f
+myround	plot_stress_charts.py	/^  def myround(self,x, base=24*3600):$/;"	m	class:ProductivityPlotter
+np	plot_stress_charts.py	/^import numpy as np$/;"	I	nameref:module:numpy
+plt	plot_stress_charts.py	/^import matplotlib.pyplot as plt$/;"	I	nameref:module:matplotlib.pyplot
+print_recent_tasks	art.py	/^def print_recent_tasks(events,number_of_days_to_go_back=4):$/;"	f
+print_tasks_by_age	igor_print.py	/^def print_tasks_by_age(todo_list): $/;"	f
+processFile	plot_stress_charts.py	/^  def processFile(self):$/;"	m	class:ProductivityPlotter
+prune_stale_tasks	taskdatabase.py	/^    def prune_stale_tasks(self):$/;"	m	class:TaskDatabase
+read_last_date	art.py	/^def read_last_date():$/;"	f
+rhul_database	igor_print.py	/^rhul_database=TaskDatabase(script_path+"databases\/rhul.database.json")$/;"	v
+save	taskdatabase.py	/^    def save(self):$/;"	m	class:TaskDatabase
+script_path	igor_print.py	/^script_path = os.path.dirname(os.path.abspath(__file__))+"\/"$/;"	v
+setup_argument_list	art.py	/^def setup_argument_list():$/;"	f
+smooth	plot_stress_charts.py	/^  def smooth(self,y, box_pts=SMOOTHING):$/;"	m	class:ProductivityPlotter
+tasks_on_date	art.py	/^def tasks_on_date(events,target_date):$/;"	f
+tasks_since	art.py	/^def tasks_since(events,start,end=datetime.date.today().toordinal()):$/;"	f
+test_events_in_ten_days	test_igor.py	/^    def test_events_in_ten_days(self):$/;"	m	class:art_test
+test_events_on_this_day_1	test_art.py	/^    def test_events_on_this_day_1(self):$/;"	m	class:art_test
+test_events_on_this_day_1	test_igor.py	/^    def test_events_on_this_day_1(self):$/;"	m	class:art_test
+test_events_on_this_day_2	test_art.py	/^    def test_events_on_this_day_2(self):$/;"	m	class:art_test
+test_events_on_this_day_2	test_igor.py	/^    def test_events_on_this_day_2(self):$/;"	m	class:art_test
+test_extract_number	test_art.py	/^    def test_extract_number(self):$/;"	m	class:art_test
+test_extract_number	test_igor.py	/^    def test_extract_number(self):$/;"	m	class:art_test
+test_get_events_for_this_ordinal	test_art.py	/^    def test_get_events_for_this_ordinal(self):$/;"	m	class:art_test
+test_get_events_for_this_ordinal	test_igor.py	/^    def test_get_events_for_this_ordinal(self):$/;"	m	class:art_test
+test_key	test_igor_charts.py	/^    def test_key(self):$/;"	m	class:igor_chart_test
+test_key2	test_igor_charts.py	/^    def test_key2(self):$/;"	m	class:igor_chart_test
+test_read_file	test_art.py	/^    def test_read_file(self):$/;"	m	class:art_test
+test_read_file	test_igor.py	/^    def test_read_file(self):$/;"	m	class:art_test
+test_read_file_and_get_priority	test_art.py	/^    def test_read_file_and_get_priority(self):$/;"	m	class:art_test
+test_read_file_and_get_priority	test_igor.py	/^    def test_read_file_and_get_priority(self):$/;"	m	class:art_test
+test_tasks_since	test_art.py	/^    def test_tasks_since(self):$/;"	m	class:art_test
+test_tasks_since	test_igor.py	/^    def test_tasks_since(self):$/;"	m	class:art_test
+total_time	taskdatabase.py	/^    def total_time(self):$/;"	m	class:TaskDatabase
+update	taskdatabase.py	/^    def update(self, id_string):$/;"	m	class:TaskDatabase
+update_current_tasks	taskdatabase.py	/^    def update_current_tasks(self,todo_list): $/;"	m	class:TaskDatabase
+write_age_of_tasks	igor_print.py	/^def write_age_of_tasks(todo_list,resultsname):$/;"	f
+write_last_date	art.py	/^def write_last_date(): #Todo what is an ordinal here$/;"	f

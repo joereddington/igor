@@ -9,7 +9,7 @@
     },
     "One hour working on Igor: full set of tests and then steps to start doing automatic project reminders": {
         "firstseen": 1716295159.3147702,
-        "lastseen": 1717664401.681062
+        "lastseen": 1717664823.463665
     },
     "Run the OBZ archive command and save to an external drive.  +EQT (details at 12/12/22)  @tower": {
         "firstseen": 1716295159.3147733,
@@ -17,15 +17,15 @@
     },
     "Process the littlefinger transactions": {
         "firstseen": 1716295159.3147812,
-        "lastseen": 1717664401.6810656
+        "lastseen": 1717666201.8856044
     },
     "mention Supertitle and Digital Local Heros to like, ten, people at RHUL": {
         "firstseen": 1716295159.3147888,
-        "lastseen": 1717664401.6810827
+        "lastseen": 1717666201.8856254
     },
     "Lookup when you are giving the U3A talk": {
         "firstseen": 1716295159.3147912,
-        "lastseen": 1717664401.681069
+        "lastseen": 1717666201.885608
     },
     "Review the cm2_knownteachers emails on @tower": {
         "firstseen": 1716295159.314794,
@@ -37,7 +37,7 @@
     },
     "Send the OVF emails": {
         "firstseen": 1716302401.6019917,
-        "lastseen": 1717664401.6810722
+        "lastseen": 1717666201.8856113
     },
     "Run mgit status on the git directory and process all alerts +EQT": {
         "firstseen": 1716798001.3253343,
@@ -53,7 +53,7 @@
     },
     "Backup AWS +EQT": {
         "firstseen": 1716798001.3253672,
-        "lastseen": 1717664401.681075
+        "lastseen": 1717666201.8856142
     },
     "Check that everything in the 'in process' box really does have a task+Overhead   +EQT": {
         "firstseen": 1716798001.3253715,
@@ -97,7 +97,7 @@
     },
     "Read the last www book  +EQT": {
         "firstseen": 1716798001.3254213,
-        "lastseen": 1717664401.681086
+        "lastseen": 1717666201.8856287
     },
     "Review starred items in feeds +Overhead +EQT": {
         "firstseen": 1716798001.3254247,
@@ -133,7 +133,7 @@
     },
     "Fix this https://theopenvoicefactory.org/fail.html?hash=8f7f830c9e56aa23bd2f6a1dc0c1ae6e&filename=FYP-intro.pptx&debugging=": {
         "firstseen": 1717593601.7346275,
-        "lastseen": 1717664401.6810791
+        "lastseen": 1717666201.8856215
     },
     "OVF - Fix the 'click for debugging information' always being presen": {
         "firstseen": 1717595101.8958445,
@@ -141,7 +141,7 @@
     },
     "OVF Create a example that produces a lot of debugging information": {
         "firstseen": 1717596001.5842786,
-        "lastseen": 1717664401.6810572
+        "lastseen": 1717666201.8856006
     },
     "x 2024-06-05 Run mgit status on the git directory and process all alerts +EQT": {
         "firstseen": 1717596207.5979984,
@@ -153,6 +153,10 @@
     },
     "Work out which cm2_known_teachers script we are using and delete the others": {
         "firstseen": 1717664331.580961,
-        "lastseen": 1717664401.6810896
+        "lastseen": 1717666201.8856323
+    },
+    "Add Project review file to igor": {
+        "firstseen": 1717665001.9906921,
+        "lastseen": 1717666201.8856175
     }
 }
