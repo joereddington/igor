@@ -17,13 +17,29 @@ class TaskDatabase():
         self.load() #Loads from the filename given  
         self.todo_list=[] # We initialise the current Todo list to the empty string TODO: why? 
 
-
     def update_current_tasks(self,todo_list): # TODO - this should be part of the class initialisation - or a multiple 
         self.todo_list=todo_list
         for task in todo_list: 
             self.update_task(task['task'])
         self.prune_stale_tasks()
         self.save()
+
+
+    def create_project_tasks(self, project_filename):
+        new_tasks = ""
+        with open(project_filename, 'r') as file:
+            lines = file.readlines()
+        for line in lines:
+            line = line.strip()
+            if not self.search_current_todo(line):
+                new_task = f"(C) 04 Work out next task for project {line}"
+                self.todo_list.append({'task': new_task, 'age': 0})
+                new_tasks += new_task + "\n"
+        return new_tasks.strip()
+
+
+        return new_tasks
+
 
     def save(self):
         with open(self.filename, 'w') as filehandle:
