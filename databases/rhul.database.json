@@ -1,54 +1,58 @@
 {
     "Read chapter of Lizzies book on Kindle": {
         "firstseen": 1715078441.402091,
-        "lastseen": 1717666201.8852448
+        "lastseen": 1717765201.5920212
     },
     "Work though the IY3501 slides rewriting into written chapters (on laptop)": {
         "firstseen": 1715255101.4438348,
-        "lastseen": 1717666201.885234
+        "lastseen": 1717744801.2928839
     },
     "Find Training courses for Moodle": {
         "firstseen": 1715255101.4438426,
-        "lastseen": 1717666201.8852415
-    },
-    "Download the projects for your project students": {
-        "firstseen": 1715260501.9883068,
-        "lastseen": 1717666201.8852267
-    },
-    "Try using https://timdams.com/2013/09/26/a-powerpoint-pptx-to-latex-text-convertor-tool/ to extract tex from the PowerPoint pptx": {
-        "firstseen": 1715261401.7278047,
-        "lastseen": 1717666201.8852382
+        "lastseen": 1717765201.592018
     },
     "Contact MSc students to see how they are doing.": {
         "firstseen": 1715286151.5497928,
-        "lastseen": 1717666201.88523
+        "lastseen": 1717765201.5920098
     },
     "Do all the EDI courses": {
         "firstseen": 1715606250.5040812,
-        "lastseen": 1717666201.8852477
-    },
-    "Read the strategy document": {
-        "firstseen": 1716798601.7591558,
-        "lastseen": 1717666201.8852198
+        "lastseen": 1717744801.2928987
     },
     "For slides:": {
         "firstseen": 1716798601.7591908,
-        "lastseen": 1717666201.8852534
+        "lastseen": 1717765201.5920272
     },
     "If you update your whole system might break (https://www.bbc.co.uk/news/uk-68584235) if you don't it might break": {
         "firstseen": 1716798601.7591949,
-        "lastseen": 1717666201.8852575
+        "lastseen": 1717765201.592031
     },
     "* Don't google past paper questions you morons - Google will give you different answers.": {
         "firstseen": 1716806701.1518924,
-        "lastseen": 1717666201.8852608
+        "lastseen": 1717765201.5920346
     },
     "Write the blog posts for teaching prizes": {
         "firstseen": 1717567201.303267,
-        "lastseen": 1717666201.8852234
+        "lastseen": 1717744801.2928758
     },
     "Badger the students about work": {
         "firstseen": 1717567201.3032982,
-        "lastseen": 1717666201.8852508
+        "lastseen": 1717744801.2929015
+    },
+    "Use laptop to run this visual studio code  using https://timdams.com/2013/09/26/a-powerpoint-pptx-to-latex-text-convertor-tool/ to extract tex from the PowerPoint pptx": {
+        "firstseen": 1717677901.1483755,
+        "lastseen": 1717765201.5920143
+    },
+    "Find a proper way to convert the word files into Latex": {
+        "firstseen": 1717745401.689884,
+        "lastseen": 1717765201.5919995
+    },
+    "Download the documents for teaching prizes on tower and Write the blog posts for teaching prizes": {
+        "firstseen": 1717745401.6898885,
+        "lastseen": 1717765201.5920062
+    },
+    "Do all the EDI courses on Moodle": {
+        "firstseen": 1717745401.6899073,
+        "lastseen": 1717765201.5920243
     }
 }

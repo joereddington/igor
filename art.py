@@ -67,3 +67,6 @@ def go(): #? Where is this called?
         print("ART V0.1")
         print("Current ordinal is: {}".format(datetime.date.today().toordinal()))
         print_recent_tasks(events)
+
+
+# Okay, so the problem here is that for us to know if we want the projects, we have to also import the current set of tasks 

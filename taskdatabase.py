@@ -4,49 +4,26 @@ import datetime
 from time import time
 
 
-def make_key(in_string):
+def make_key(in_string):  # We remove the priority and time (which change quite often) when storing a task so the age is more accurate
     in_string=re.sub('^\(.\)','',in_string)
     in_string=re.sub(' [0-9][0-9] ','',in_string)
     return in_string.strip()
 
 class TaskDatabase():
 
-    def __init__(self,filename):
-        self.filename=filename
+    def __init__(self,json_filename):
+        self.filename=json_filename # We use the filename for loading and also saving so we need to keep it. 
         self.structure={}
-        self.load()
-        self.todo_list=[]
-
-    def update(self, id_string):
-        key=make_key(id_string)
-        if key not in self.structure: 
-            local={}
-            local['firstseen']=time()
-            self.structure[key]=local
-        self.structure[key]['lastseen']=time()
-
-    def total_time(self):
-        total_time_in_minutes=0
-        for task in self.todo_list: 
-
-            task['time']=self.age(task['task']) 
-        return self.todo_list
+        self.load() #Loads from the filename given  
+        self.todo_list=[] # We initialise the current Todo list to the empty string TODO: why? 
 
 
-    def age(self, id_string):
-        key=make_key(id_string)
-        if key in self.structure: 
-            local=self.structure[key]
-            age_in_seconds=time()-local['firstseen'] 
-            age_in_days=age_in_seconds/(60*60*24)
-            return age_in_days
-        return -1 #TODO throw an error here
-
-    def get_oldest(self):
-        task_list=self.get_current_tasks()
-        oldest=max(task_list, key=lambda x:x['age'])
-        print("The task \"{}\" is {:.0f} days old".format(oldest['task'],oldest['age']))
-        return oldest
+    def update_current_tasks(self,todo_list): # TODO - this should be part of the class initialisation - or a multiple 
+        self.todo_list=todo_list
+        for task in todo_list: 
+            self.update_task(task['task'])
+        self.prune_stale_tasks()
+        self.save()
 
     def save(self):
         with open(self.filename, 'w') as filehandle:
@@ -56,12 +33,40 @@ class TaskDatabase():
         with open(self.filename, 'r') as filehandle:
             self.structure = json.load(filehandle)
 
-    def update_current_tasks(self,todo_list): 
-        self.todo_list=todo_list
-        for task in todo_list: 
-            self.update(task['task'])
-        self.prune_stale_tasks()
-        self.save()
+    def search_current_todo(self, search_string): 
+        if self.todo_list is False:
+            print("Todo list NOT present")
+            return 
+        tasks=self.get_current_tasks() 
+        for task in tasks: 
+            if search_string in task['task']:
+                return task['task']
+        return False  #TODO this needs a test case 
+
+    def update_task(self, id_string): # If this task isn't in the database add it, and if it is, update the 'lastseen' value
+        key=make_key(id_string)
+        if key not in self.structure: 
+            local={}
+            local['firstseen']=time()
+            self.structure[key]=local
+        self.structure[key]['lastseen']=time()
+
+    def get_age_of_task(self, id_string): # TODO It would be nice if this was implicit 
+        key=make_key(id_string)
+        if key in self.structure: 
+            local=self.structure[key]
+            age_in_seconds=time()-local['firstseen'] 
+            age_in_days=age_in_seconds/(60*60*24)
+            return age_in_days
+        print("Warning 'get_age_of_task' returned -1")
+        return -1 #TODO throw an error here (TODO find out how often this happens
+
+    def print_oldest_in_current_tasks(self):
+        task_list=self.get_current_tasks()
+        oldest=max(task_list, key=lambda x:x['age'])
+        print("The task \"{}\" is {:.0f} days old".format(oldest['task'],oldest['age']))
+        return oldest
+
 
     def prune_stale_tasks(self):
         seconds_in_day=24*60*60
@@ -73,5 +78,5 @@ class TaskDatabase():
 
     def get_current_tasks(self):
         for task in self.todo_list: 
-            task['age']=self.age(task['task']) 
+            task['age']=self.get_age_of_task(task['task']) 
         return self.todo_list

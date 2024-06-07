@@ -50,7 +50,7 @@ def write_age_of_tasks(todo_list,resultsname):
 def display(database,resultsname):
     write_age_of_tasks(database.get_current_tasks(),resultsname)
     print_tasks_by_age(database.get_current_tasks())
-    database.get_oldest()
+    database.print_oldest_in_current_tasks()
 
 def combined_write():
     all_tasks=[]
