@@ -1,58 +1,54 @@
 {
-    "Read chapter of Lizzies book on Kindle": {
-        "firstseen": 1715078441.402091,
-        "lastseen": 1717766401.5417943
+    "tasks": {
+        "Download the documents for teaching prizes on tower and Write the blog posts for teaching prizes": {
+            "firstseen": 1717745401.6898885,
+            "lastseen": 1718084733.6591074
+        },
+        "Do all the EDI courses on Moodle": {
+            "firstseen": 1717745401.6899073,
+            "lastseen": 1718127583.5059319
+        },
+        "Find a new way of extracting latex skeletons from Powerpoint": {
+            "firstseen": 1717792201.5568166,
+            "lastseen": 1718127583.5059245
+        },
+        "Email Kostas and Carlos about Flowers for Turing. Also email the undergraduates": {
+            "firstseen": 1717792801.685389,
+            "lastseen": 1718127583.5059366
+        },
+        "Contact other MSc students to see how they are doing.": {
+            "firstseen": 1717792801.6854036,
+            "lastseen": 1718127583.5059192
+        },
+        "Find out a little more about athena swan": {
+            "firstseen": 1717792801.685421,
+            "lastseen": 1718127583.5059414
+        },
+        "Read rest of introduction to Lizzies Book": {
+            "firstseen": 1717999422.443781,
+            "lastseen": 1718127583.5059295
+        },
+        "Find youtube videos about Moodle": {
+            "firstseen": 1717999447.3634512,
+            "lastseen": 1718127583.5059268
+        },
+        "Experiment with converting word documents to latex using pandoc (and pptx to docx)": {
+            "firstseen": 1718024401.5394592,
+            "lastseen": 1718127583.5059392
+        },
+        "Email all the luton schools": {
+            "firstseen": 1718028601.150086,
+            "lastseen": 1718084733.6590946
+        },
+        "Fix the typos for teaching prizes": {
+            "firstseen": 1718084790.1305017,
+            "lastseen": 1718127583.5059338
+        },
+        "Fill out the supervisor form": {
+            "firstseen": 1718085601.3336143,
+            "lastseen": 1718127583.5059218
+        }
     },
-    "Work though the IY3501 slides rewriting into written chapters (on laptop)": {
-        "firstseen": 1715255101.4438348,
-        "lastseen": 1717744801.2928839
-    },
-    "Find Training courses for Moodle": {
-        "firstseen": 1715255101.4438426,
-        "lastseen": 1717766401.541791
-    },
-    "Contact MSc students to see how they are doing.": {
-        "firstseen": 1715286151.5497928,
-        "lastseen": 1717766401.5417826
-    },
-    "Do all the EDI courses": {
-        "firstseen": 1715606250.5040812,
-        "lastseen": 1717744801.2928987
-    },
-    "For slides:": {
-        "firstseen": 1716798601.7591908,
-        "lastseen": 1717766401.5418003
-    },
-    "If you update your whole system might break (https://www.bbc.co.uk/news/uk-68584235) if you don't it might break": {
-        "firstseen": 1716798601.7591949,
-        "lastseen": 1717766401.5418043
-    },
-    "* Don't google past paper questions you morons - Google will give you different answers.": {
-        "firstseen": 1716806701.1518924,
-        "lastseen": 1717766401.541808
-    },
-    "Write the blog posts for teaching prizes": {
-        "firstseen": 1717567201.303267,
-        "lastseen": 1717744801.2928758
-    },
-    "Badger the students about work": {
-        "firstseen": 1717567201.3032982,
-        "lastseen": 1717744801.2929015
-    },
-    "Use laptop to run this visual studio code  using https://timdams.com/2013/09/26/a-powerpoint-pptx-to-latex-text-convertor-tool/ to extract tex from the PowerPoint pptx": {
-        "firstseen": 1717677901.1483755,
-        "lastseen": 1717766401.5417874
-    },
-    "Find a proper way to convert the word files into Latex": {
-        "firstseen": 1717745401.689884,
-        "lastseen": 1717766401.5417724
-    },
-    "Download the documents for teaching prizes on tower and Write the blog posts for teaching prizes": {
-        "firstseen": 1717745401.6898885,
-        "lastseen": 1717766401.5417793
-    },
-    "Do all the EDI courses on Moodle": {
-        "firstseen": 1717745401.6899073,
-        "lastseen": 1717766401.5417976
-    }
+    "projects": "",
+    "lastupdate": false
 }

@@ -57,10 +57,10 @@ def write_last_date(): #Todo what is an ordinal here
    f.write("{}".format(datetime.date.today().toordinal()))
    f.close()
 
-def go(): #? Where is this called? 
+def go(): #This is called from  outside
     events=import_events(here+"/art_events.csv") # Read the events - okay, but then what are they used for? 
     if args.n:
-        for task in tasks_since(read_last_date()[0]):
+        for task in tasks_since(events,read_last_date()[0]):
             print(task)
         write_last_date()
     else:

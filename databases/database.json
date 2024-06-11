@@ -1,98 +1,142 @@
 {
-    "Plan the nextdays for wheel of life": {
-        "firstseen": 1715287201.8579102,
-        "lastseen": 1717766401.5411756
+    "tasks": {
+        "Pick another new night for games night with Kat and then immediately email people": {
+            "firstseen": 1717569001.9030309,
+            "lastseen": 1718127583.5054557
+        },
+        "Clean out Fridge @offline": {
+            "firstseen": 1717792201.556141,
+            "lastseen": 1718127583.5054638
+        },
+        "- super quick review of the KAt memory palace  @offline": {
+            "firstseen": 1717792201.5561554,
+            "lastseen": 1718127583.5054755
+        },
+        "Brainstorm public projects and the best approach to that.  @offline": {
+            "firstseen": 1717792201.5561597,
+            "lastseen": 1718127583.5054805
+        },
+        "Get Kat approval for Leo birthday message  @offline": {
+            "firstseen": 1717792201.5561635,
+            "lastseen": 1718127583.505483
+        },
+        "Practice the CONSTA grid @offline": {
+            "firstseen": 1717792201.55617,
+            "lastseen": 1718127583.5054874
+        },
+        "Keep sawing the arch  @offline": {
+            "firstseen": 1717792201.556177,
+            "lastseen": 1718127583.5054853
+        },
+        "watch home videos on bigdisk @tower": {
+            "firstseen": 1717792201.5561967,
+            "lastseen": 1718127583.505498
+        },
+        "Update the script for importing images so that it includes the sidecar files (and confirms if they are going to be overwritten, which should never happen but)   @tower": {
+            "firstseen": 1717792201.5562015,
+            "lastseen": 1718127583.5054955
+        },
+        "complete full review of the memory palace.  +paper @offline": {
+            "firstseen": 1717792201.5562084,
+            "lastseen": 1718127583.5055003
+        },
+        "Send the cartwheel videos over again": {
+            "firstseen": 1717793101.0743625,
+            "lastseen": 1718127583.505478
+        },
+        "Measure last two bits of pit cover": {
+            "firstseen": 1717830001.5863104,
+            "lastseen": 1718127583.5054684
+        },
+        "measure shelves you want for bedroom": {
+            "firstseen": 1717830001.5863144,
+            "lastseen": 1718127583.5054708
+        },
+        "Take kitchen door off hinges  @offline": {
+            "firstseen": 1717830001.5863216,
+            "lastseen": 1718127583.505492
+        },
+        "Buy Mark a book present": {
+            "firstseen": 1718016001.2979782,
+            "lastseen": 1718127583.5055072
+        },
+        "Add words to the Lair blog post": {
+            "firstseen": 1718016295.3536062,
+            "lastseen": 1718127583.5054896
+        },
+        "Check you have ingredients for three levels of keto - salad - scrabmled tofu": {
+            "firstseen": 1718025860.6509857,
+            "lastseen": 1718127583.5054588
+        },
+        "Review and re-score  Wheel Of life": {
+            "firstseen": 1718025860.6509912,
+            "lastseen": 1718127583.5054612
+        },
+        "Check starred messages in kat whatsapp": {
+            "firstseen": 1718025860.6509993,
+            "lastseen": 1718127583.5054662
+        },
+        "Confirm plans for next two weekends.+Overhead @phone": {
+            "firstseen": 1718025860.651048,
+            "lastseen": 1718127583.5055096
+        },
+        "Contact \u00a7e:U2FsdGVkX18YzL62ZWaIGXGiMMQ+Iuvx81cvznpIv1k=\u00a7 for advice about something": {
+            "firstseen": 1718025860.6510508,
+            "lastseen": 1718084790.129907
+        },
+        "Cut Nova and Leo nails +Health": {
+            "firstseen": 1718025860.6510537,
+            "lastseen": 1718127583.505512
+        },
+        "Do Menu for the week +Family  @phone": {
+            "firstseen": 1718025860.651056,
+            "lastseen": 1718127583.5055141
+        },
+        "Do something genuinely nice for \u00a7e:U2FsdGVkX1/jHkQjxS8m0DEs/epwc3SIRl2yYxHMBzc=\u00a7 +Family": {
+            "firstseen": 1718025860.651059,
+            "lastseen": 1718127583.5055172
+        },
+        "Empty Joe inbox completely +Overhead": {
+            "firstseen": 1718025860.6510613,
+            "lastseen": 1718127583.5055199
+        },
+        "Go thought calendar and find at least one 'thank you's  you *can* make  +Overhead": {
+            "firstseen": 1718025860.6510663,
+            "lastseen": 1718084790.1299195
+        },
+        "Post to Vegan Facebook group  @phone": {
+            "firstseen": 1718025860.6510794,
+            "lastseen": 1718127583.505522
+        },
+        "Save a nice family memory +Family @phone": {
+            "firstseen": 1718025860.6510835,
+            "lastseen": 1718084790.1299264
+        },
+        "Trim nose hair +Health": {
+            "firstseen": 1718025860.6510859,
+            "lastseen": 1718127583.505524
+        },
+        "Update Goodreads with the current book and your progress +Overhead  @phone": {
+            "firstseen": 1718025860.6510901,
+            "lastseen": 1718127583.5055265
+        },
+        "charge camera @offline": {
+            "firstseen": 1718030241.7749631,
+            "lastseen": 1718127583.5054727
+        },
+        "Add code from laptop to bike post on blog": {
+            "firstseen": 1718030241.7749658,
+            "lastseen": 1718127583.5055027
+        },
+        "Add the chart and the update to the news checking blog post": {
+            "firstseen": 1718031001.8115356,
+            "lastseen": 1718127583.5055053
+        },
+        "Get fathers day card @offline": {
+            "firstseen": 1718031601.380305,
+            "lastseen": 1718127583.5054507
+        }
     },
-    "complete full review of the memory palace.  +paper": {
-        "firstseen": 1715606401.0954924,
-        "lastseen": 1717766401.5412486
-    },
-    "Brainstorm public projects and the best approach to that.": {
-        "firstseen": 1716295801.4344854,
-        "lastseen": 1717766401.5412002
-    },
-    "Review the feedbacks from Kat and follow up https://github.com/joereddington/Projects-Private/issues/171": {
-        "firstseen": 1716798001.3240397,
-        "lastseen": 1717766401.5411716
-    },
-    "Clean out Fridge": {
-        "firstseen": 1716798001.3240464,
-        "lastseen": 1717766401.5411792
-    },
-    "Do Menu for the week +Family  @phone": {
-        "firstseen": 1716798001.3241222,
-        "lastseen": 1717766401.5412035
-    },
-    "Floss +Health": {
-        "firstseen": 1716798001.324131,
-        "lastseen": 1717766401.541193
-    },
-    "Write Moonpig cards for this month +Overhead": {
-        "firstseen": 1716798001.3241937,
-        "lastseen": 1717766401.5412202
-    },
-    "Tell Nova that you got scared that you lost a script": {
-        "firstseen": 1716807601.3967931,
-        "lastseen": 1717766401.54119
-    },
-    "Practice the CONSTA grid": {
-        "firstseen": 1716811201.7435162,
-        "lastseen": 1717766401.5412102
-    },
-    "Change five passwords via firefox": {
-        "firstseen": 1716811512.7743268,
-        "lastseen": 1717766401.541233
-    },
-    "TakePhotos with camera": {
-        "firstseen": 1716812572.667429,
-        "lastseen": 1717766401.5412452
-    },
-    "- super quick review of the KAt memory palace": {
-        "firstseen": 1716815401.932341,
-        "lastseen": 1717766401.5411966
-    },
-    "Update the script for importing images so that it includes the sidecar files (and confirms if they are going to be overwritten, which should never happen but)": {
-        "firstseen": 1716816070.6001654,
-        "lastseen": 1717766401.5412416
-    },
-    "Process the art of memory forum": {
-        "firstseen": 1716962401.7493906,
-        "lastseen": 1717766401.5411825
-    },
-    "Keep sawing the arch": {
-        "firstseen": 1717313401.6995864,
-        "lastseen": 1717766401.5412166
-    },
-    "Export lair whatspp messages on Tower": {
-        "firstseen": 1717313401.6995974,
-        "lastseen": 1717766401.5412297
-    },
-    "Fix kitchen door again": {
-        "firstseen": 1717567801.7698393,
-        "lastseen": 1717766401.5412135
-    },
-    "Make last bit of pit cover": {
-        "firstseen": 1717567801.7698495,
-        "lastseen": 1717766401.541223
-    },
-    "Add British Summer time to history code": {
-        "firstseen": 1717567801.769853,
-        "lastseen": 1717766401.5412264
-    },
-    "Pick another new night for games night with Kat and then immediately email people": {
-        "firstseen": 1717569001.9030309,
-        "lastseen": 1717766401.5411654
-    },
-    "Get the text from Facebook and Write news checking blog post": {
-        "firstseen": 1717569601.5284052,
-        "lastseen": 1717766401.5411863
-    },
-    "Get Kat approval for Leo birthday message": {
-        "firstseen": 1717569601.5284264,
-        "lastseen": 1717766401.541207
-    },
-    "watch home videos on bigdisk": {
-        "firstseen": 1717569601.5284562,
-        "lastseen": 1717766401.5412364
-    }
+    "projects": "",
+    "lastupdate": false
 }

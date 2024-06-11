@@ -90,6 +90,7 @@ class ProductivityPlotter():
     print("%s written with output from %s"%(self.dest, self.source))
 
 if __name__ == "__main__":
+    os.chdir('/home/joe/git/igor/')
     SOURCE= "outputs/eqt.results.txt"
     DEST = "../todo.txt/eqt.priority.png"
     a=ProductivityPlotter(SOURCE,DEST,DAYS)

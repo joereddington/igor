@@ -16,6 +16,8 @@ class TaskDatabase():
         self.structure={}
         self.load() #Loads from the filename given  
         self.todo_list=[] # We initialise the current Todo list to the empty string TODO: why? 
+        self.projects=""
+        self.last_project_update=False
 
     def update_current_tasks(self,todo_list): # TODO - this should be part of the class initialisation - or a multiple 
         self.todo_list=todo_list
@@ -33,7 +35,7 @@ class TaskDatabase():
             line = line.strip()
             if not self.search_current_todo(line):
                 new_task = f"(C) 04 Work out next task for project {line}"
-                self.todo_list.append({'task': new_task, 'age': 0})
+               # self.todo_list.append({'task': new_task, 'age': 0})  This is for when we start properly adding
                 new_tasks += new_task + "\n"
         return new_tasks.strip()
 
@@ -44,10 +46,23 @@ class TaskDatabase():
     def save(self):
         with open(self.filename, 'w') as filehandle:
             json.dump(self.structure, filehandle, indent=4)
-    
+
+
+    def save(self):
+        wholedatabase = {
+            'tasks': self.structure,
+            'projects': self.projects,
+            'lastupdate': self.last_project_update
+        }
+        with open(self.filename, 'w') as filehandle:
+            json.dump(wholedatabase, filehandle, indent=4)
+
     def load(self):
         with open(self.filename, 'r') as filehandle:
-            self.structure = json.load(filehandle)
+            wholedatabase= json.load(filehandle)
+            self.structure=wholedatabase['tasks']
+            self.projects=wholedatabase['projects']
+            self.last_project_update=wholedatabase['lastupdate']
 
     def search_current_todo(self, search_string): 
         if self.todo_list is False:
@@ -74,7 +89,7 @@ class TaskDatabase():
             age_in_seconds=time()-local['firstseen'] 
             age_in_days=age_in_seconds/(60*60*24)
             return age_in_days
-        print("Warning 'get_age_of_task' returned -1")
+        print(f"Warning 'get_age_of_task' returned -1 for {id_string}")
         return -1 #TODO throw an error here (TODO find out how often this happens
 
     def print_oldest_in_current_tasks(self):
@@ -86,11 +101,11 @@ class TaskDatabase():
 
     def prune_stale_tasks(self):
         seconds_in_day=24*60*60
-        print("Size before pruning database of stale tasks was {}".format(len(list(self.structure.keys()))))
+        #print("Size before pruning database of stale tasks was {}".format(len(list(self.structure.keys()))))
         for key in list(self.structure.keys()): #it's a list because otherwise you are deleting things from an itterator
             if time()-self.structure[key]['lastseen']>seconds_in_day:
                 del self.structure[key] 
-        print("Size after was {}".format(len(list(self.structure.keys()))))
+        #print("Size after was {}".format(len(list(self.structure.keys()))))
 
     def get_current_tasks(self):
         for task in self.todo_list: 
