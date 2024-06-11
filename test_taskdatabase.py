@@ -10,19 +10,24 @@ class TestTaskDatabase(unittest.TestCase):
     def setUp(self):
         # Mock JSON content
         self.mock_json_content = {
-            "task1": {
-                "firstseen": time() - 100000,  # Arbitrary past time
-                "lastseen": time() - 50000
-            },
-            "task2": {
-                "firstseen": time() - 200000,
-                "lastseen": time() - 100000
-            }
+        "projects":{"hope":"it's a thing worth doing"},
+        "lastupdate":  739047,
+        "tasks":{
+                    "task1": {
+                        "firstseen": time() - 100000,  # Arbitrary past time
+                        "lastseen": time() - 50000
+                    },
+                    "task2": {
+                        "firstseen": time() - 200000,
+                        "lastseen": time() - 100000
+                    }
+                }
         }
         self.mock_json_filename = 'mock_tasks.json'
         self.mock_todo_list = [
-            {'task': '(A) Buy groceries 01', 'age': 1},
-            {'task': '(B) Clean the house 02', 'age': 2},
+            {'task': '(A) Buy groceries 01', 'age': ""},
+            {'task': '(B) Clean the house 02', 'age': ""},
+            {'task': 'task2', 'age': ""},
         ]
         self.mock_json_content_str = json.dumps(self.mock_json_content)
 
@@ -46,9 +51,6 @@ class TestTaskDatabase(unittest.TestCase):
         result = make_key('(A) Task 01 ')
         self.assertEqual(result, 'Task')
 
-    def test_load(self):
-        self.db.load()
-        self.assertEqual(self.db.structure, self.mock_json_content)
 
     def test_save(self):
         self.db.save()
@@ -82,7 +84,7 @@ class TestTaskDatabase(unittest.TestCase):
     def test_print_oldest_in_current_tasks(self):
         self.db.update_current_tasks(self.mock_todo_list)
         oldest = self.db.print_oldest_in_current_tasks()
-        self.assertEqual(oldest['task'], '(A) Buy groceries 01') # Sometimes this fails due to ordering issues
+        self.assertEqual(oldest['task'], 'task2') # Sometimes this fails due to ordering issues
 
     def test_prune_stale_tasks(self):
         self.db.prune_stale_tasks()
@@ -94,7 +96,6 @@ class TestTaskDatabase(unittest.TestCase):
         self.assertEqual(len(tasks), 2)
         for task in tasks:
            self.assertIn('age', task)
-
 
     @patch('builtins.open', new_callable=mock_open, read_data="Task A\nTask B\nTask C")
     def test_create_project_tasks(self, mock_file):

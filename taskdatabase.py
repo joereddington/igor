@@ -106,6 +106,9 @@ class TaskDatabase():
             if time()-self.structure[key]['lastseen']>seconds_in_day:
                 del self.structure[key] 
         #print("Size after was {}".format(len(list(self.structure.keys()))))
+    def print_todo(self):
+       for task in self.get_current_tasks():
+            print(task)
 
     def get_current_tasks(self):
         for task in self.todo_list: 
