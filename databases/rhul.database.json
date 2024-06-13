@@ -1,52 +1,52 @@
 {
     "tasks": {
-        "Download the documents for teaching prizes on tower and Write the blog posts for teaching prizes": {
-            "firstseen": 1717745401.6898885,
-            "lastseen": 1718084733.6591074
-        },
         "Do all the EDI courses on Moodle": {
             "firstseen": 1717745401.6899073,
-            "lastseen": 1718128801.7713404
+            "lastseen": 1718229001.209199
         },
         "Find a new way of extracting latex skeletons from Powerpoint": {
             "firstseen": 1717792201.5568166,
-            "lastseen": 1718128801.7713282
+            "lastseen": 1718229001.2091887
         },
         "Email Kostas and Carlos about Flowers for Turing. Also email the undergraduates": {
             "firstseen": 1717792801.685389,
-            "lastseen": 1718128801.7713482
+            "lastseen": 1718171558.4932427
         },
         "Contact other MSc students to see how they are doing.": {
             "firstseen": 1717792801.6854036,
-            "lastseen": 1718128801.7713194
+            "lastseen": 1718229001.2091799
         },
         "Find out a little more about athena swan": {
             "firstseen": 1717792801.685421,
-            "lastseen": 1718128801.7713563
+            "lastseen": 1718171558.4932475
         },
         "Read rest of introduction to Lizzies Book": {
             "firstseen": 1717999422.443781,
-            "lastseen": 1718128801.7713368
+            "lastseen": 1718229001.2091956
         },
         "Find youtube videos about Moodle": {
             "firstseen": 1717999447.3634512,
-            "lastseen": 1718128801.7713325
+            "lastseen": 1718229001.209192
         },
         "Experiment with converting word documents to latex using pandoc (and pptx to docx)": {
             "firstseen": 1718024401.5394592,
-            "lastseen": 1718128801.7713525
-        },
-        "Email all the luton schools": {
-            "firstseen": 1718028601.150086,
-            "lastseen": 1718084733.6590946
+            "lastseen": 1718229001.2092032
         },
         "Fix the typos for teaching prizes": {
             "firstseen": 1718084790.1305017,
-            "lastseen": 1718128801.7713442
+            "lastseen": 1718171558.4932399
         },
         "Fill out the supervisor form": {
             "firstseen": 1718085601.3336143,
-            "lastseen": 1718128801.771324
+            "lastseen": 1718171558.493228
+        },
+        "Message the doctoral training school about collaborative lecture": {
+            "firstseen": 1718171558.4932256,
+            "lastseen": 1718172001.356323
+        },
+        "x 2024-06-12Message the doctoral training school about collaborative lecture": {
+            "firstseen": 1718172601.7942324,
+            "lastseen": 1718229001.2091844
         }
     },
     "projects": "",

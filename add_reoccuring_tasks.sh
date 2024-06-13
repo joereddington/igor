@@ -14,10 +14,4 @@ rm art.txt
 
 # This is ugly. It's got to import a bunch of different files and then write to them. That's NOT all that hard but MAYBE  it should be in the python the whole time.
 
-#  What does that look like? 
-
-# Create the TaskDatabase
-# database.add(art.generate_timed_tasks("Art_events.txt","EQT")) 
-# database.
-* Why doesn't the database include the timed tasks and the projects?"  
 

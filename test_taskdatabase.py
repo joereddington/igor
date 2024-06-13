@@ -10,7 +10,7 @@ class TestTaskDatabase(unittest.TestCase):
     def setUp(self):
         # Mock JSON content
         self.mock_json_content = {
-        "projects":{"hope":"it's a thing worth doing"},
+        "projects":{"TaskA":"it's a thing worth doing", "TaskB":"we need it", "TaskC":"hate doing this"},
         "lastupdate":  739047,
         "tasks":{
                     "task1": {
@@ -60,7 +60,7 @@ class TestTaskDatabase(unittest.TestCase):
 
     def test_update_current_tasks(self):
         self.db.update_current_tasks(self.mock_todo_list)
-        self.assertEqual(len(self.db.structure), 3)  # I think there were two tasks, then two were added, and one was pruned. 
+        self.assertEqual(len(self.db.structure), 4)  # This is asking about how many in total are in the database
 
     def test_search_current_todo_found(self):
         self.db.update_current_tasks(self.mock_todo_list)

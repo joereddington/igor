@@ -1,0 +1,70 @@
+Public Tasks
+
+    Blog/Put on social
+        Close down the site properly in June
+    FlowersForTuring
+        Public#6 opened by joereddington
+    SuperTed X
+        Public#146 opened by joereddington
+    A named external person needs this before they can do something, or on a deadline
+        https://www.myfundingcentral.co.uk/Scheme/View/Milton-Keynes-New-Communities-Fund-GRUKBP3!S52072?search=9b4c6f59c21d4b24bac5de4dcae58788&cdp=7&cip=10&bcr=MTI0NQ
+        Added by joereddington
+    Older people
+        https://www.myfundingcentral.co.uk/News/View/Funding-to-Reduce-Isolation-and-Loneliness-Among-Older-People-Across-Great-Britain-GRUKBP3!N78547?bcr=MTIzNA
+        Added by joereddington
+    Esme fairbairn muesums
+        https://www.myfundingcentral.co.uk/News/View/Funding-for-UK-Museums-and-Galleries-to-Bring-Collections-Closer-to-People-GRUKBP3!N78541?bcr=MTIzNA
+        Added by joereddington
+    Deliver Garfield Weston by February
+        Home#143 opened by joereddington
+    Tidy up the Website for 2023
+        FlowersForTuring#5 opened by joereddington
+    Contact all teachers we've worked with 2023
+        Home#133 opened by joereddington
+
+A named person needs this, but there isn't a deadline
+
+    Write a version of the very next newsletter for trustees and send it to a bunch of people.
+        Home#142 opened by joereddington
+    Remove Dropbox before next billing date (30th March)
+        Home#120 opened by joereddington
+
+Internal Commitments with a deadline
+
+    Next sprint on developing OVF
+        Added by joereddington
+    Read chapter of next book on this list
+        Public#166 opened by joereddington
+    Have a set date all employees need to bring expenses up to date by
+        Added by joereddington
+    All policies older than six months are renewed
+        Public#57 opened by joereddington
+
+Internal Commitments without a deadline
+
+    Promote eQuality Time within RHUL
+        Home#138 opened by joereddington
+    Investigate automatic follow ups with chainmail
+        Home#141 opened by joereddington
+    Process the delores.todo list
+        Added by joereddington
+    Improve the White Water Writers Library Spreadsheet
+        Home#134 opened by joereddington
+    Rolling Google Ads Project
+        Public#164 opened by joereddington
+    Get really good at regularly asking people for help
+        Home#132 opened by joereddington
+    Give University Courses
+        Home#135 opened by joereddington
+    We spend 80% of our google ads allowance a month
+        Public#131 opened by joereddington
+    Contact US universities about WWW
+        Public#168 opened by joereddington
+    Weekly uses of Chainmail project
+        Home#127 opened by joereddington
+    Create Theory of change for each project
+        Public#13 opened by joereddington
+    All Employees should have uploaded all changed git code
+        Added by joereddington
+    Continually improve and train on working practices and technology
+        Added by joereddington
