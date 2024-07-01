@@ -15,7 +15,7 @@ class TaskDatabase():
         self.filename=json_filename # We use the filename for loading and also saving so we need to keep it. 
         self.structure={}
         self.load() #Loads from the filename given  
-        self.todo_list=[] # We initialise the current Todo list to the empty string TODO: why? 
+        self.todo_list=[] # We initialise the current Todo list to the empty list TODO: why? 
         self.projects=""
         self.last_project_update=False
 

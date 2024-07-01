@@ -1,80 +1,132 @@
 {
     "tasks": {
-        "Process the littlefinger transactions into expenses": {
-            "firstseen": 1717677001.56877,
-            "lastseen": 1718229001.2095375
-        },
         "Add Project review file to igor @offline": {
             "firstseen": 1717792801.6859539,
-            "lastseen": 1718229001.2095537
+            "lastseen": 1719825601.4048378
         },
-        "Read the last www book  +EQT  @offline": {
-            "firstseen": 1717792801.685962,
-            "lastseen": 1718229001.2095573
+        "Review actions from last meeting  @online": {
+            "firstseen": 1718258401.9251323,
+            "lastseen": 1719825601.4048173
         },
-        "connect the correct spreadsheet and email all the luton schools": {
-            "firstseen": 1718086201.7344353,
-            "lastseen": 1718208901.1014848
+        "Rewrite the top ten on your task list as blog posts. @online": {
+            "firstseen": 1718258401.925147,
+            "lastseen": 1719826201.5628386
         },
-        "Do full accounts algorithm +EQT": {
-            "firstseen": 1718171558.4934602,
-            "lastseen": 1718229001.2095501
+        "Process the littlefinger transactions into expenses  @online": {
+            "firstseen": 1718259301.6693118,
+            "lastseen": 1719827101.100975
         },
-        "Check that everything in the 'in process' box really does have a task+Overhead   +EQT": {
-            "firstseen": 1718171558.4934685,
-            "lastseen": 1718172001.3566835
+        "Write a newsletter for subscribers @online": {
+            "firstseen": 1718259301.6693149,
+            "lastseen": 1719815401.8411796
         },
-        "Learn something new about vim in http://learnvimscriptthehardway.stevelosh.com/chapters/17.html +EQT": {
-            "firstseen": 1718171558.4934711,
-            "lastseen": 1718171558.4934714
+        "Run the CM2 process for known headteachers  @online": {
+            "firstseen": 1718342735.8838713,
+            "lastseen": 1719826201.5628154
         },
-        "x 2024-06-12Check that everything in the 'in process' box really does have a task+Overhead   +EQT": {
-            "firstseen": 1718172601.79457,
-            "lastseen": 1718229001.2095616
+        "Igor should ignore contexts (like this one @online)": {
+            "firstseen": 1718345356.1719706,
+            "lastseen": 1719827101.1009777
         },
-        "Rewrite the top ten on your task list as blog posts.": {
-            "firstseen": 1718204401.080955,
-            "lastseen": 1718229001.209565
+        "Review oldest policies @online @hotel": {
+            "firstseen": 1719237750.9706326,
+            "lastseen": 1719823801.1085913
         },
-        "x 2024-06-12connect the correct spreadsheet and email all the luton schools": {
-            "firstseen": 1718209201.296944,
-            "lastseen": 1718229001.2095163
+        "Do the Turing Paperwork": {
+            "firstseen": 1719295201.3292654,
+            "lastseen": 1719784201.911571
         },
-        "Another reddit post": {
-            "firstseen": 1718209201.2969477,
-            "lastseen": 1718229001.2095199
+        "Practice presentation for Wednesday": {
+            "firstseen": 1719295201.3292696,
+            "lastseen": 1719784201.911575
         },
-        "Write a newsletter for subscribers": {
-            "firstseen": 1718209201.2969515,
-            "lastseen": 1718229001.2095234
+        "Reformat smaller external drive @offline (but want the commands)": {
+            "firstseen": 1719295201.3292773,
+            "lastseen": 1719784201.9115827
         },
-        "Lookup if a weekly pass is cheaper for next week": {
-            "firstseen": 1718209201.2969553,
-            "lastseen": 1718229001.209527
+        "Send the next set of OVF emails  @online": {
+            "firstseen": 1719295201.3292894,
+            "lastseen": 1719827101.1009822
         },
-        "Finish the external drive sync": {
-            "firstseen": 1718209201.2969587,
-            "lastseen": 1718229001.2095304
+        "Start next accounts project @online": {
+            "firstseen": 1719295201.329294,
+            "lastseen": 1719823801.1085947
         },
-        "Put dropbox on an external drive and cancel it": {
-            "firstseen": 1718209201.2969623,
-            "lastseen": 1718229001.2095337
+        "Rsync for dropbox and then cancel it.": {
+            "firstseen": 1719297601.7542236,
+            "lastseen": 1719784201.9115787
         },
-        "Review oldest policies": {
-            "firstseen": 1718209201.2969694,
-            "lastseen": 1718229001.2095406
+        "Do the Turing Paperwork  @online": {
+            "firstseen": 1719812643.1524873,
+            "lastseen": 1719823501.718424
         },
-        "Process git directory": {
-            "firstseen": 1718209201.2969728,
-            "lastseen": 1718229001.209547
+        "Rsync for dropbox and then cancel it. @offline": {
+            "firstseen": 1719812643.152491,
+            "lastseen": 1719825301.1498256
         },
-        "Find out why deleting things from history doesn't delete them from the database": {
-            "firstseen": 1718209201.296995,
-            "lastseen": 1718229001.209569
+        "Build the office chair  @offline": {
+            "firstseen": 1719812643.1524982,
+            "lastseen": 1719827101.1009846
         },
-        "Review actions from last meeting": {
-            "firstseen": 1718210401.9017031,
-            "lastseen": 1718229001.2095437
+        "Review and Send the newsletter to subscribers": {
+            "firstseen": 1719816001.9432595,
+            "lastseen": 1719823801.108573
+        },
+        "Transfer the Turing money from PayPal @online": {
+            "firstseen": 1719823801.1085649,
+            "lastseen": 1719827101.100967
+        },
+        "Process Mum's expenses @online": {
+            "firstseen": 1719823801.108569,
+            "lastseen": 1719823801.1085691
+        },
+        "Watch a guide to OpenAI": {
+            "firstseen": 1719823801.108598,
+            "lastseen": 1719823801.1085982
+        },
+        "Thoroughly test Claude": {
+            "firstseen": 1719823801.1086013,
+            "lastseen": 1719827101.1009963
+        },
+        "Put mum's expenses in Quickbooks": {
+            "firstseen": 1719824033.3959022,
+            "lastseen": 1719827101.1009643
+        },
+        "Review and send the newsletter to subscribers": {
+            "firstseen": 1719824033.395905,
+            "lastseen": 1719827101.1009722
+        },
+        "Review oldest policies @drive": {
+            "firstseen": 1719824033.395917,
+            "lastseen": 1719826201.5628455
+        },
+        "Put some openAi videos onto youtube's to watch list": {
+            "firstseen": 1719824033.3959196,
+            "lastseen": 1719827101.1009943
+        },
+        "Cancel Dropbox @online": {
+            "firstseen": 1719825601.4048476,
+            "lastseen": 1719827101.1009867
+        },
+        "Put bigdisk on smallexternal, then wipe @offline": {
+            "firstseen": 1719825601.4048514,
+            "lastseen": 1719827101.100992
+        },
+        "JR to provide the costs for each WWW camp and the number of hours that go into them": {
+            "firstseen": 1719826201.5596626,
+            "lastseen": 1719827101.1009698
+        },
+        "Find out if there are minutes from the last meeting - there isn't any in the folder": {
+            "firstseen": 1719826201.559695,
+            "lastseen": 1719827101.1009893
+        },
+        "Open up the Known headteachers chainmail file and make a list of things that need to be updated.": {
+            "firstseen": 1719826801.896408,
+            "lastseen": 1719827101.1009614
+        },
+        "Review some more policies": {
+            "firstseen": 1719826801.8964353,
+            "lastseen": 1719827101.10098
         }
     },
     "projects": "",

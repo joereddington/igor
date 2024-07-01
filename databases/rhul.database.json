@@ -1,52 +1,40 @@
 {
     "tasks": {
-        "Do all the EDI courses on Moodle": {
-            "firstseen": 1717745401.6899073,
-            "lastseen": 1718229001.209199
+        "Find a new way of extracting latex skeletons from Powerpoint  (I think at this point I'm JUST  writing the whole thing out again)": {
+            "firstseen": 1718342735.8835013,
+            "lastseen": 1719827101.100713
         },
-        "Find a new way of extracting latex skeletons from Powerpoint": {
-            "firstseen": 1717792201.5568166,
-            "lastseen": 1718229001.2091887
+        "Find youtube videos about Moodle  @online": {
+            "firstseen": 1718342735.8835044,
+            "lastseen": 1719827101.1007159
         },
-        "Email Kostas and Carlos about Flowers for Turing. Also email the undergraduates": {
-            "firstseen": 1717792801.685389,
-            "lastseen": 1718171558.4932427
+        "Read rest of introduction to Lizzies Book  @offline": {
+            "firstseen": 1718342735.883507,
+            "lastseen": 1719827101.1007183
         },
-        "Contact other MSc students to see how they are doing.": {
-            "firstseen": 1717792801.6854036,
-            "lastseen": 1718229001.2091799
+        "Do all the EDI courses on Moodle  @online": {
+            "firstseen": 1718342735.8835094,
+            "lastseen": 1719827101.1007206
         },
-        "Find out a little more about athena swan": {
-            "firstseen": 1717792801.685421,
-            "lastseen": 1718171558.4932475
+        "Experiment with converting word documents to latex using pandoc (and pptx to docx) @offline": {
+            "firstseen": 1718342735.8835127,
+            "lastseen": 1719827101.1007237
         },
-        "Read rest of introduction to Lizzies Book": {
-            "firstseen": 1717999422.443781,
-            "lastseen": 1718229001.2091956
+        "Another iteration of the essays book": {
+            "firstseen": 1719297901.3473449,
+            "lastseen": 1719784201.9112906
         },
-        "Find youtube videos about Moodle": {
-            "firstseen": 1717999447.3634512,
-            "lastseen": 1718229001.209192
+        "Another iteration of the essays book @offline": {
+            "firstseen": 1719812643.1519434,
+            "lastseen": 1719827101.1007092
         },
-        "Experiment with converting word documents to latex using pandoc (and pptx to docx)": {
-            "firstseen": 1718024401.5394592,
-            "lastseen": 1718229001.2092032
+        "Work out what I need to do for senior lectuer - it doesn't hurt to know": {
+            "firstseen": 1719813601.2875574,
+            "lastseen": 1719827101.1007266
         },
-        "Fix the typos for teaching prizes": {
-            "firstseen": 1718084790.1305017,
-            "lastseen": 1718171558.4932399
-        },
-        "Fill out the supervisor form": {
-            "firstseen": 1718085601.3336143,
-            "lastseen": 1718171558.493228
-        },
-        "Message the doctoral training school about collaborative lecture": {
-            "firstseen": 1718171558.4932256,
-            "lastseen": 1718172001.356323
-        },
-        "x 2024-06-12Message the doctoral training school about collaborative lecture": {
-            "firstseen": 1718172601.7942324,
-            "lastseen": 1718229001.2091844
+        "Search teams for workload calculations": {
+            "firstseen": 1719813601.287561,
+            "lastseen": 1719827101.1007288
         }
     },
     "projects": "",
