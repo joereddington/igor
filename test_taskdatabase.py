@@ -50,6 +50,9 @@ class TestTaskDatabase(unittest.TestCase):
     def test_make_key(self):
         result = make_key('(A) Task 01 ')
         self.assertEqual(result, 'Task')
+        self.assertEqual(make_key("(A) +outside gardening"),"gardening") 
+        self.assertEqual(make_key(" @offline gardening"),"gardening") 
+        self.assertEqual(make_key("@hotel make +Hope dinner  +Turing"),"make dinner") 
 
 
     def test_save(self):

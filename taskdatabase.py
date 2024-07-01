@@ -4,9 +4,30 @@ import datetime
 from time import time
 
 
-def make_key(in_string):  # We remove the priority and time (which change quite often) when storing a task so the age is more accurate
-    in_string=re.sub('^\(.\)','',in_string)
-    in_string=re.sub(' [0-9][0-9] ','',in_string)
+
+def make_key(in_string):
+    """
+    Processes the input string to remove priority markers, time elements, and words starting with '@' or '+'.
+    
+    Args:
+        in_string (str): The input task string.
+    
+    Returns:
+        str: The cleaned task string.
+    """
+    # Remove the priority marker at the beginning of the string (e.g., (A))
+    in_string = re.sub(r'^\(.\)', '', in_string)
+    
+    # Remove the time elements (e.g., '20') surrounded by spaces
+    in_string = re.sub(r' [0-9][0-9] ', '', in_string)
+    
+    # Remove words that start with '@' or '+', including at the beginning of the string
+    # (\s|^) matches either whitespace or the start of the string
+    # [@+] matches either '@' or '+'
+    # \S+ matches one or more non-whitespace characters (the rest of the word)
+    in_string = re.sub(r'(\s|^)[@+]\S+', '', in_string)
+    
+    # Strip leading and trailing whitespace characters
     return in_string.strip()
 
 class TaskDatabase():
