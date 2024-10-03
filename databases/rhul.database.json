@@ -1,56 +1,72 @@
 {
     "tasks": {
-        "Make and print a sign about the fourth train carriage": {
-            "firstseen": 1722861087.820779,
-            "lastseen": 1725087601.8448057
-        },
-        "Properly write out the plan and goals for senior lecture": {
-            "firstseen": 1722861087.8207836,
-            "lastseen": 1725087601.8448174
-        },
         "Map project to get a fellowship in AdvanceHE": {
             "firstseen": 1722861087.8208044,
-            "lastseen": 1725087601.844811
+            "lastseen": 1727952057.0409582
         },
         "Brainstorm making the RHUL list public What do I need to do to make sure that my RHUL list is public": {
             "firstseen": 1722861087.8208127,
-            "lastseen": 1725087601.8447833
+            "lastseen": 1727952057.0409484
         },
-        "Put notes about ISG_Administrative_Roles_230531.pdf somewhere.": {
-            "firstseen": 1722862801.3667152,
-            "lastseen": 1725087601.8448236
+        "Update next set of slides  - put in the train, locks, reading, and return to Unit Zero": {
+            "firstseen": 1727952057.0409353,
+            "lastseen": 1727952057.0409355
         },
-        "Rewrite the first set of latex lecture notes": {
-            "firstseen": 1722863701.123925,
-            "lastseen": 1725087601.844761
+        "x 2024-10-02Watch these Moodle videos: https://www.youtube.com/watch?v=2_MRiaZ3LXQ&list=PLxcO_MFWQBDdmfwbRBU7jRyvnkn94jME2": {
+            "firstseen": 1727952057.0409417,
+            "lastseen": 1727952057.0409422
         },
-        "Create the lecture notes for Unit 2.": {
-            "firstseen": 1722863701.123929,
-            "lastseen": 1725087601.84475
+        "Sync (some of) one drive to your laptop so that you can do the semi-public todo.txt": {
+            "firstseen": 1727952057.0409539,
+            "lastseen": 1727952057.040954
         },
-        "Watch these Moodle videos: https://www.youtube.com/watch?v=2_MRiaZ3LXQ&list=PLxcO_MFWQBDdmfwbRBU7jRyvnkn94jME2": {
-            "firstseen": 1722863701.1239357,
-            "lastseen": 1725087601.8447683
+        "x 2024-10-02Properly write out the plan and goals for senior lecture": {
+            "firstseen": 1727952057.040963,
+            "lastseen": 1727952057.0409632
         },
-        "Read rest of introduction to Lizzie's Book": {
-            "firstseen": 1722863701.1239407,
-            "lastseen": 1725087601.8447747
+        "x 2024-10-02Read rest of introduction to Lizzie's Book": {
+            "firstseen": 1727952057.0409677,
+            "lastseen": 1727952057.040968
         },
-        "Make a Github repo that lists the categories that you need in for Senior Lecturer promotion and fill them in with Projects": {
-            "firstseen": 1722863701.1239572,
-            "lastseen": 1725087601.8447928
+        "Email to find out if there is a way to do the attendance sheet like it's a spreadsheet.": {
+            "firstseen": 1727952057.0409737,
+            "lastseen": 1727952057.0409737
         },
-        "Make a proper Github repo of projects you want to run at RHUL": {
-            "firstseen": 1722863701.1239622,
-            "lastseen": 1725087601.8447995
+        "\"I am happy for this work to be used as a teaching demonstration, up on the big screen, anonymously\"": {
+            "firstseen": 1727952057.0409794,
+            "lastseen": 1727952057.0409796
         },
-        "Clear the inbox": {
-            "firstseen": 1722873001.6865046,
-            "lastseen": 1725087601.8447435
+        "remember to make the coursework turnitin able": {
+            "firstseen": 1727952057.040984,
+            "lastseen": 1727952057.040984
         },
-        "Fill out that form": {
-            "firstseen": 1722873001.6865108,
-            "lastseen": 1725087601.844755
+        "CASPER": {
+            "firstseen": 1727952057.0409863,
+            "lastseen": 1727952057.0409868
+        },
+        "* Get the code working based on dates.": {
+            "firstseen": 1727952057.0409904,
+            "lastseen": 1727952057.0409904
+        },
+        "* Record the current version of the mapping and put on the blog": {
+            "firstseen": 1727952057.040995,
+            "lastseen": 1727952057.0409951
+        },
+        "* Add code for coping with late people. (MAYBE a little marker at the side then we can then use)": {
+            "firstseen": 1727952057.0410004,
+            "lastseen": 1727952057.0410006
+        },
+        "* Write some notes on what you have been doing.": {
+            "firstseen": 1727952057.0410042,
+            "lastseen": 1727952057.0410047
+        },
+        "* Follow up about getting permission to do the thing.": {
+            "firstseen": 1727952057.0410085,
+            "lastseen": 1727952057.0410087
+        },
+        "* Next big step - run it live on Friday and get people to correct it as they go.": {
+            "firstseen": 1727952057.0410135,
+            "lastseen": 1727952057.0410135
         }
     },
     "projects": "",

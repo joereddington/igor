@@ -1,72 +1,64 @@
 {
     "tasks": {
-        "Send the next set of OVF emails": {
-            "firstseen": 1719828001.6817322,
-            "lastseen": 1725087601.8453376
-        },
-        "Text Nova's friend's mum about schools": {
-            "firstseen": 1719945601.4704242,
-            "lastseen": 1725087601.8453188
-        },
-        "Post to WWW facebook page": {
-            "firstseen": 1719999601.7703073,
-            "lastseen": 1725087601.8453064
-        },
-        "Update cash flow and send it to Andy": {
-            "firstseen": 1720010701.830357,
-            "lastseen": 1725087601.845286
-        },
-        "Process the Barking expenses (on laptop)": {
-            "firstseen": 1720503462.4784646,
-            "lastseen": 1725087601.8453128
-        },
-        "Review four more policies": {
-            "firstseen": 1720503462.4784863,
-            "lastseen": 1725087601.8453243
-        },
-        "Map out a goal-linkage project - you haven't mapped a project in ages": {
-            "firstseen": 1720798201.1733649,
-            "lastseen": 1725087601.8452935
-        },
-        "Start writing strategy document": {
-            "firstseen": 1721197801.7817738,
-            "lastseen": 1725087601.8452673
-        },
-        "Search for funding for eQuality Time Projects": {
-            "firstseen": 1721220002.0020688,
-            "lastseen": 1725087601.845331
-        },
         "Spendminutes or so considering the fruits of long term goals": {
             "firstseen": 1721220002.0020766,
-            "lastseen": 1725087601.845346
+            "lastseen": 1727952057.0413477
         },
-        "fix and Put FLowers For Turing Report in Social media": {
-            "firstseen": 1722861206.4974277,
-            "lastseen": 1725087601.8453
+        "(A Trustees by 15th October) Improve strategy document": {
+            "firstseen": 1727952057.0412712,
+            "lastseen": 1727952057.0412714
         },
-        "put all all expenses from littlefinger into quickbooks": {
-            "firstseen": 1722872401.3759596,
-            "lastseen": 1725087601.8452744
+        "(B Trustees, Kat )Export Natwest Expenses since 21st May into Littlefinger and process them completely": {
+            "firstseen": 1727952057.0412776,
+            "lastseen": 1727952057.041278
         },
-        "Reconcile To see if stuff has been paid": {
-            "firstseen": 1722872401.3759658,
-            "lastseen": 1725087601.8452618
+        "Redo the unity form correcting the email address issue and also changing Andy's (and francesca's) access": {
+            "firstseen": 1727952057.041284,
+            "lastseen": 1727952057.0412843
         },
-        "Add all the tasks about backing up to igor": {
-            "firstseen": 1722872401.3759778,
-            "lastseen": 1725087601.8452804
+        "Get quotes from three comic printers": {
+            "firstseen": 1727952057.0412881,
+            "lastseen": 1727952057.0412881
         },
-        "Write wiki talk": {
-            "firstseen": 1725036094.2635918,
-            "lastseen": 1725087601.8452442
+        "Find a sample text arts and mems and paste it into a google doc": {
+            "firstseen": 1727952057.0412931,
+            "lastseen": 1727952057.0412936
         },
-        "Publish Last week's book": {
-            "firstseen": 1725036094.263596,
-            "lastseen": 1725087601.8452556
+        "Check to see if you have processed barking expenses (on laptop) (NA get date of trip)": {
+            "firstseen": 1727952057.041299,
+            "lastseen": 1727952057.0413022
         },
-        "Do the journal entry for OVF funds.": {
-            "firstseen": 1725083080.9390955,
-            "lastseen": 1725087601.8452506
+        "Expense all subscriptions and server costs for the 31st August (part of littlefinger)": {
+            "firstseen": 1727952057.041308,
+            "lastseen": 1727952057.0413082
+        },
+        "Look through the delores code and todo list and see what you fancy doing": {
+            "firstseen": 1727952057.041313,
+            "lastseen": 1727952057.0413132
+        },
+        "Look around OVF and see what you want to do for a sprint": {
+            "firstseen": 1727952057.0413177,
+            "lastseen": 1727952057.041318
+        },
+        "send RR a thank you gift.": {
+            "firstseen": 1727952057.0413213,
+            "lastseen": 1727952057.0413215
+        },
+        "---": {
+            "firstseen": 1727952057.0413237,
+            "lastseen": 1727952057.0413237
+        },
+        "set up trustees@ email": {
+            "firstseen": 1727952057.0413268,
+            "lastseen": 1727952057.041327
+        },
+        "Run mgit status on the git directory and process all alerts": {
+            "firstseen": 1727952057.041332,
+            "lastseen": 1727952057.0413382
+        },
+        "Open list of projects to be funded": {
+            "firstseen": 1727952057.0413423,
+            "lastseen": 1727952057.0413425
         }
     },
     "projects": "",

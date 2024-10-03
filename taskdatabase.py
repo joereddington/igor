@@ -4,7 +4,6 @@ import datetime
 from time import time
 
 
-
 def make_key(in_string):
     """
     Processes the input string to remove priority markers, time elements, and words starting with '@' or '+'.
@@ -62,11 +61,6 @@ class TaskDatabase():
 
 
         return new_tasks
-
-
-    def save(self):
-        with open(self.filename, 'w') as filehandle:
-            json.dump(self.structure, filehandle, indent=4)
 
 
     def save(self):
