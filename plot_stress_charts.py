@@ -44,12 +44,18 @@ class ProductivityPlotter():
             seconds.insert(0,int(splitline[2]))
             now.insert(0,int(splitline[0].strip()))
             count=count+1 
-        except ValueError:
-            print("XXXX")
-            print(rawline)
-            print(splitline) 
-            print(splitline[0]) 
-            print("YYYY")
+        except ValueError as ve:
+            print(f"ValueError encountered: {ve}")
+            print("Raw line that caused error:", rawline)
+            print("Split line content:", splitline)
+        except IndexError as ie:
+            print(f"IndexError encountered: {ie}")
+            print("Raw line that caused error:", rawline)
+            print("Split line content:", splitline)
+            print(f"Length of splitline: {len(splitline)}")
+            print("Attempted index access caused error. Ensure there are at least 6 elements.")
+            continue # Discard this one and move on. (last time is was a line from bash)  
+
     return (seconds,now,dayold,threedayold,weekold)
 
   def graph(self,seconds,now, dayold, threedayold,weekold):
