@@ -1,40 +1,56 @@
 {
     "tasks": {
-        "Find a new way of extracting latex skeletons from Powerpoint  (I think at this point I'm JUST  writing the whole thing out again)": {
-            "firstseen": 1718342735.8835013,
-            "lastseen": 1719827401.4408033
+        "Make and print a sign about the fourth train carriage": {
+            "firstseen": 1722861087.820779,
+            "lastseen": 1725087601.8448057
         },
-        "Find youtube videos about Moodle  @online": {
-            "firstseen": 1718342735.8835044,
-            "lastseen": 1719827401.4408069
+        "Properly write out the plan and goals for senior lecture": {
+            "firstseen": 1722861087.8207836,
+            "lastseen": 1725087601.8448174
         },
-        "Read rest of introduction to Lizzies Book  @offline": {
-            "firstseen": 1718342735.883507,
-            "lastseen": 1719827401.4408107
+        "Map project to get a fellowship in AdvanceHE": {
+            "firstseen": 1722861087.8208044,
+            "lastseen": 1725087601.844811
         },
-        "Do all the EDI courses on Moodle  @online": {
-            "firstseen": 1718342735.8835094,
-            "lastseen": 1719827401.4408143
+        "Brainstorm making the RHUL list public What do I need to do to make sure that my RHUL list is public": {
+            "firstseen": 1722861087.8208127,
+            "lastseen": 1725087601.8447833
         },
-        "Experiment with converting word documents to latex using pandoc (and pptx to docx) @offline": {
-            "firstseen": 1718342735.8835127,
-            "lastseen": 1719827401.4408185
+        "Put notes about ISG_Administrative_Roles_230531.pdf somewhere.": {
+            "firstseen": 1722862801.3667152,
+            "lastseen": 1725087601.8448236
         },
-        "Another iteration of the essays book": {
-            "firstseen": 1719297901.3473449,
-            "lastseen": 1719784201.9112906
+        "Rewrite the first set of latex lecture notes": {
+            "firstseen": 1722863701.123925,
+            "lastseen": 1725087601.844761
         },
-        "Another iteration of the essays book @offline": {
-            "firstseen": 1719812643.1519434,
-            "lastseen": 1719827401.4407973
+        "Create the lecture notes for Unit 2.": {
+            "firstseen": 1722863701.123929,
+            "lastseen": 1725087601.84475
         },
-        "Work out what I need to do for senior lectuer - it doesn't hurt to know": {
-            "firstseen": 1719813601.2875574,
-            "lastseen": 1719827401.4408226
+        "Watch these Moodle videos: https://www.youtube.com/watch?v=2_MRiaZ3LXQ&list=PLxcO_MFWQBDdmfwbRBU7jRyvnkn94jME2": {
+            "firstseen": 1722863701.1239357,
+            "lastseen": 1725087601.8447683
         },
-        "Search teams for workload calculations": {
-            "firstseen": 1719813601.287561,
-            "lastseen": 1719827401.440826
+        "Read rest of introduction to Lizzie's Book": {
+            "firstseen": 1722863701.1239407,
+            "lastseen": 1725087601.8447747
+        },
+        "Make a Github repo that lists the categories that you need in for Senior Lecturer promotion and fill them in with Projects": {
+            "firstseen": 1722863701.1239572,
+            "lastseen": 1725087601.8447928
+        },
+        "Make a proper Github repo of projects you want to run at RHUL": {
+            "firstseen": 1722863701.1239622,
+            "lastseen": 1725087601.8447995
+        },
+        "Clear the inbox": {
+            "firstseen": 1722873001.6865046,
+            "lastseen": 1725087601.8447435
+        },
+        "Fill out that form": {
+            "firstseen": 1722873001.6865108,
+            "lastseen": 1725087601.844755
         }
     },
     "projects": "",
