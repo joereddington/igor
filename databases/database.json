@@ -1,160 +1,124 @@
 {
     "tasks": {
-        "Write a proper shed list: sand the mantle, prep the bbq, make a chivel holder, tidy up, add the rest of the mats, cut the lining for the other tools, Fix inspection pit": {
-            "firstseen": 1723472401.8579109,
-            "lastseen": 1727965429.7226596
-        },
-        "Talk to Kat about celebrations and rewards": {
-            "firstseen": 1723474201.8582008,
-            "lastseen": 1727965429.7226512
-        },
-        "Read https://arxiv.org/pdf/2406.13843": {
-            "firstseen": 1724319001.1957667,
-            "lastseen": 1727965429.7227106
-        },
-        "Work out how to solve the \"Haretree Energy has a value of\" problem and if you put the correct synatex together.": {
-            "firstseen": 1724337001.7729294,
-            "lastseen": 1727965429.7226999
-        },
-        "Watch 'watch later' videos on treadmill": {
-            "firstseen": 1725032401.684184,
-            "lastseen": 1727965429.722731
-        },
-        "Make sure you have all the photos from your old phone on Dropbox.": {
-            "firstseen": 1725034201.2847984,
-            "lastseen": 1727965429.7226934
-        },
         "Drill holes for supports in inspection pit  (Get Hammerdrill and two bits of wood)": {
             "firstseen": 1725034201.2848089,
-            "lastseen": 1727965429.7227163
-        },
-        "Seal Nova's Curtains to the wall": {
-            "firstseen": 1725034201.284847,
-            "lastseen": 1727965429.7226326
-        },
-        "anotherminutes Write out full review of the memory palace.": {
-            "firstseen": 1725081974.3257923,
-            "lastseen": 1727965429.7227364
-        },
-        "Fix todo chart contab": {
-            "firstseen": 1725081974.3258803,
-            "lastseen": 1727953201.4876432
-        },
-        "Talk to D about Tickets for Comic con.": {
-            "firstseen": 1727952057.040316,
-            "lastseen": 1727965429.7225788
-        },
-        "Print out leaflets for Trick or Treat  https://docs.google.com/document/d/1sn2JpFS5slhRyhKkPYD8lihc4-RUGHmMfDA0d3FuRyM/edit": {
-            "firstseen": 1727952057.0403244,
-            "lastseen": 1727965429.7225869
-        },
-        "Year plan: check you have 5 projects in each part (update Igor so this is easier)": {
-            "firstseen": 1727952057.0403304,
-            "lastseen": 1727965429.7225928
-        },
-        "Rewrite  emotional todo list. https://github.com/joereddington/Projects-Private/issues/188": {
-            "firstseen": 1727952057.0403528,
-            "lastseen": 1727965429.722598
-        },
-        "Take bookshelves out for fixing": {
-            "firstseen": 1727952057.0403569,
-            "lastseen": 1727965429.7226017
-        },
-        "Make seiten": {
-            "firstseen": 1727952057.04036,
-            "lastseen": 1727965429.7226048
-        },
-        "Fill out TV licence form": {
-            "firstseen": 1727952057.0403636,
-            "lastseen": 1727965429.7226083
-        },
-        "Put curtain up in Hall)": {
-            "firstseen": 1727952057.040367,
-            "lastseen": 1727953201.4875932
-        },
-        "Cut a panel that is 41cm wide and at leastcm high for kitchen cupboard": {
-            "firstseen": 1727952057.0403721,
-            "lastseen": 1727965429.7226183
-        },
-        "Book in for Luton HM": {
-            "firstseen": 1727952057.0403757,
-            "lastseen": 1727965429.7226217
-        },
-        "Trim nose hair": {
-            "firstseen": 1727952057.0403798,
-            "lastseen": 1727965429.7226253
-        },
-        "book circus camp for Nova half term": {
-            "firstseen": 1727952057.0403838,
-            "lastseen": 1727965429.722629
-        },
-        "Cut Nova and Leo nails": {
-            "firstseen": 1727952057.0403914,
-            "lastseen": 1727965429.7226362
-        },
-        "Empty Joe inbox completely": {
-            "firstseen": 1727952057.0403953,
-            "lastseen": 1727965429.72264
-        },
-        "Finalise dates with Kat about Disneyland": {
-            "firstseen": 1727952057.0403993,
-            "lastseen": 1727954401.148069
-        },
-        "x 2024-10-03Phone about tv licence (image in whatsapp)": {
-            "firstseen": 1727952057.0404072,
-            "lastseen": 1727953201.4876502
-        },
-        "Repair headphones with the kit": {
-            "firstseen": 1727952057.0404112,
-            "lastseen": 1727965429.722647
-        },
-        "add the things about fires to your memory place - the five types of fires A,B,Camping, Digging, Fat": {
-            "firstseen": 1727952057.04043,
-            "lastseen": 1727965429.7226686
-        },
-        "Empty whatsapp and facebook inboxes.": {
-            "firstseen": 1727952057.0404341,
-            "lastseen": 1727965429.7226727
-        },
-        "go to garage  and Lookup the type of little electronic processor you have.": {
-            "firstseen": 1727952057.0404394,
-            "lastseen": 1727965429.7226803
-        },
-        "Review your highlights and notes from Kindle books (https://read.amazon.com/notebook)  (https://www.dropbox.com/preview/Kindle%20Clippings/My%20Clippingsold.txt?role=personal)": {
-            "firstseen": 1727952057.0404475,
-            "lastseen": 1727965429.7226884
-        },
-        "Write full weekly review blog post": {
-            "firstseen": 1727952057.0404637,
-            "lastseen": 1727965429.7227035
-        },
-        "process Garage inbox.": {
-            "firstseen": 1727952057.040467,
-            "lastseen": 1727965429.7227068
-        },
-        "Go to B&Q and Buy replacement wood (two shelf sheets and a length of support wood) for garage shelves Also top for shed": {
-            "firstseen": 1727952057.0404835,
-            "lastseen": 1727965429.7227228
+            "lastseen": 1736151001.2445278
         },
         "Set a timer for 1 hour to look at the ten year goals": {
             "firstseen": 1727952057.040488,
-            "lastseen": 1727965429.7227275
+            "lastseen": 1736151001.2444937
         },
-        "Buy Leo football shirt": {
-            "firstseen": 1727952057.0405004,
-            "lastseen": 1727965429.7227397
+        "Review and re-score  Wheel Of life": {
+            "firstseen": 1729080001.8964694,
+            "lastseen": 1736151001.2444978
         },
-        "Check where your github and google recovery codes are": {
-            "firstseen": 1727952057.040505,
-            "lastseen": 1727965429.722744
+        "Do two level of Duolingo": {
+            "firstseen": 1730738132.4398718,
+            "lastseen": 1736151001.2445176
         },
-        "Unscrew the screws that are in the way for the curtain pole.": {
-            "firstseen": 1727953710.9744575,
-            "lastseen": 1727965429.722613
+        "Make blinking light 'hello world' on Arduino https://docs.arduino.cc/built-in-examples/basics/Blink/ (and probably a youtube video )": {
+            "firstseen": 1730739001.3862677,
+            "lastseen": 1736151001.2445352
         },
-        "Book disneyland Tickets": {
-            "firstseen": 1727955001.9685807,
-            "lastseen": 1727965429.7226434
+        "Sand the mantle down in the garage": {
+            "firstseen": 1731568201.3243306,
+            "lastseen": 1736151001.2445214
+        },
+        "Build Lego ISS": {
+            "firstseen": 1732106127.01651,
+            "lastseen": 1736151001.2445383
+        },
+        "Test remembering central password": {
+            "firstseen": 1732110001.6480007,
+            "lastseen": 1736151001.244617
+        },
+        "Find the memory index.": {
+            "firstseen": 1732196401.5132952,
+            "lastseen": 1736151001.2446265
+        },
+        "Year plan: check you have 5 projects in each part": {
+            "firstseen": 1733323201.2879906,
+            "lastseen": 1736151001.2444825
+        },
+        "Review the feedbacks from Kat and follow up https://github.com/joereddington/Projects-Private/issues/171": {
+            "firstseen": 1733323201.288044,
+            "lastseen": 1736151001.2445068
+        },
+        "Clean out Fridge": {
+            "firstseen": 1733323201.2880545,
+            "lastseen": 1736151001.2445102
+        },
+        "Check the last time \u00a7e:U2FsdGVkX18e4dSc7UPajr6opVoESIiCeqyZawbCs2Q=\u00a7 called you": {
+            "firstseen": 1733323201.2881398,
+            "lastseen": 1736151001.244562
+        },
+        "Do something genuinely nice for \u00a7e:U2FsdGVkX1/jHkQjxS8m0DEs/epwc3SIRl2yYxHMBzc=\u00a7": {
+            "firstseen": 1733323201.2881813,
+            "lastseen": 1736151001.2445676
+        },
+        "Empty Joe inbox completely": {
+            "firstseen": 1733323201.2881863,
+            "lastseen": 1736151001.2445717
+        },
+        "Empty whatsapp and facebook inboxes.": {
+            "firstseen": 1733323201.288192,
+            "lastseen": 1736151001.2445755
+        },
+        "Floss": {
+            "firstseen": 1733323201.2882013,
+            "lastseen": 1736151001.2445138
+        },
+        "Go through phone and save all of the numbers": {
+            "firstseen": 1733323201.2882397,
+            "lastseen": 1736151001.244585
+        },
+        "process Garage inbox.": {
+            "firstseen": 1733323201.2882755,
+            "lastseen": 1736151001.2446203
+        },
+        "Review your highlights and notes from Kindle books (https://read.amazon.com/notebook)  (https://www.dropbox.com/preview/Kindle%20Clippings/My%20Clippingsold.txt?role=personal)": {
+            "firstseen": 1733323201.2882998,
+            "lastseen": 1736151001.2446067
+        },
+        "TSE": {
+            "firstseen": 1733323201.2883239,
+            "lastseen": 1736151001.2446134
+        },
+        "Review videos on phone and see what needs uploading to Nova's youtube.": {
+            "firstseen": 1733901601.9256523,
+            "lastseen": 1736151001.2445986
+        },
+        "Fix the holes in the flooring again": {
+            "firstseen": 1733902201.3523393,
+            "lastseen": 1736151001.2445421
+        },
+        "Setup USB3 charging thing for laptop.": {
+            "firstseen": 1733911801.1067567,
+            "lastseen": 1736151001.2446105
+        },
+        "Map a project for  next phase of the Garage Project": {
+            "firstseen": 1733912401.62007,
+            "lastseen": 1736151001.2445934
+        },
+        "renew passport": {
+            "firstseen": 1734516001.3035414,
+            "lastseen": 1736151001.2446232
+        },
+        "Get a Box and make bike light charging station in Garage": {
+            "firstseen": 1735765201.3359146,
+            "lastseen": 1736151001.2445798
+        },
+        "Lookup the details of your landlords insurance": {
+            "firstseen": 1735765201.3359275,
+            "lastseen": 1736151001.244589
+        },
+        "Christmas notes: NOT JUST  exercise, also water, and fibre, and having a constructive practice. Comics would be great. Set up the camera to properly record chrsitmas morning": {
+            "firstseen": 1735767001.1376562,
+            "lastseen": 1736151001.244551
+        },
+        "Book car in at Halfords to do the wiring for camera.": {
+            "firstseen": 1735767001.1376626,
+            "lastseen": 1736151001.2445552
         }
     },
     "projects": "",
