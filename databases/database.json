@@ -1,124 +1,228 @@
 {
     "tasks": {
-        "Drill holes for supports in inspection pit  (Get Hammerdrill and two bits of wood)": {
-            "firstseen": 1725034201.2848089,
-            "lastseen": 1736151001.2445278
-        },
-        "Set a timer for 1 hour to look at the ten year goals": {
-            "firstseen": 1727952057.040488,
-            "lastseen": 1736151001.2444937
-        },
-        "Review and re-score  Wheel Of life": {
-            "firstseen": 1729080001.8964694,
-            "lastseen": 1736151001.2444978
-        },
-        "Do two level of Duolingo": {
-            "firstseen": 1730738132.4398718,
-            "lastseen": 1736151001.2445176
-        },
         "Make blinking light 'hello world' on Arduino https://docs.arduino.cc/built-in-examples/basics/Blink/ (and probably a youtube video )": {
             "firstseen": 1730739001.3862677,
-            "lastseen": 1736151001.2445352
+            "lastseen": 1738502401.936519
         },
-        "Sand the mantle down in the garage": {
-            "firstseen": 1731568201.3243306,
-            "lastseen": 1736151001.2445214
+        "Spendminutes or so considering the fruits of long term goals": {
+            "firstseen": 1737739801.87674,
+            "lastseen": 1738575896.0182674
         },
-        "Build Lego ISS": {
-            "firstseen": 1732106127.01651,
-            "lastseen": 1736151001.2445383
+        "Print out and self review exam": {
+            "firstseen": 1737753001.9219975,
+            "lastseen": 1738502401.9365222
         },
-        "Test remembering central password": {
-            "firstseen": 1732110001.6480007,
-            "lastseen": 1736151001.244617
+        "Find out why we lose setxkbdmp us and the print screen.": {
+            "firstseen": 1737753601.3783193,
+            "lastseen": 1738575896.0182629
         },
-        "Find the memory index.": {
-            "firstseen": 1732196401.5132952,
-            "lastseen": 1736151001.2446265
+        "Readpages in Food and Cooking Book": {
+            "firstseen": 1737791402.0045998,
+            "lastseen": 1738506601.209104
         },
-        "Year plan: check you have 5 projects in each part": {
-            "firstseen": 1733323201.2879906,
-            "lastseen": 1736151001.2444825
+        "Review the next two weeks of Coursera Content and write up your notes.": {
+            "firstseen": 1737792001.1613128,
+            "lastseen": 1738575896.0181775
         },
-        "Review the feedbacks from Kat and follow up https://github.com/joereddington/Projects-Private/issues/171": {
-            "firstseen": 1733323201.288044,
-            "lastseen": 1736151001.2445068
+        "Make setien": {
+            "firstseen": 1737975601.5242505,
+            "lastseen": 1738575896.018259
         },
-        "Clean out Fridge": {
-            "firstseen": 1733323201.2880545,
-            "lastseen": 1736151001.2445102
+        "Press-ups": {
+            "firstseen": 1737976201.0914972,
+            "lastseen": 1738575896.0181804
         },
-        "Check the last time \u00a7e:U2FsdGVkX18e4dSc7UPajr6opVoESIiCeqyZawbCs2Q=\u00a7 called you": {
-            "firstseen": 1733323201.2881398,
-            "lastseen": 1736151001.244562
+        "(A Writers )Setup folder for printed comic for writers.": {
+            "firstseen": 1737983401.3968983,
+            "lastseen": 1738575896.0181472
         },
-        "Do something genuinely nice for \u00a7e:U2FsdGVkX1/jHkQjxS8m0DEs/epwc3SIRl2yYxHMBzc=\u00a7": {
-            "firstseen": 1733323201.2881813,
-            "lastseen": 1736151001.2445676
+        "Get external drive from safe and check for index.pdf": {
+            "firstseen": 1737985595.0800922,
+            "lastseen": 1738575896.0183158
         },
-        "Empty Joe inbox completely": {
-            "firstseen": 1733323201.2881863,
-            "lastseen": 1736151001.2445717
+        "Find the old reconciliation spreadsheet in Dropbox (try external drive and transfer 1k": {
+            "firstseen": 1737989401.2619479,
+            "lastseen": 1738575896.0182498
         },
-        "Empty whatsapp and facebook inboxes.": {
-            "firstseen": 1733323201.288192,
-            "lastseen": 1736151001.2445755
+        "Fix Air Conditioning": {
+            "firstseen": 1738048201.5973146,
+            "lastseen": 1738575896.0183022
         },
-        "Floss": {
-            "firstseen": 1733323201.2882013,
-            "lastseen": 1736151001.2445138
+        "Put Snuggy on and stand in the garage listening to a podcast for an hour.": {
+            "firstseen": 1738057201.0866642,
+            "lastseen": 1738575896.0183063
         },
-        "Go through phone and save all of the numbers": {
-            "firstseen": 1733323201.2882397,
-            "lastseen": 1736151001.244585
+        "Review the GA nomination of BA2018": {
+            "firstseen": 1738057801.6767461,
+            "lastseen": 1738575896.0183094
         },
-        "process Garage inbox.": {
-            "firstseen": 1733323201.2882755,
-            "lastseen": 1736151001.2446203
+        "Download and read another chapter of Computer Security on tablet( https://librarysearch.royalholloway.ac.uk/discovery/fulldisplay?docid=alma997054583802671&context=L&vid=44ROY_INST:44ROY_VU2&lang=en&search_scope=MyInst_and_CI&adaptor=Local%20Search%20Engine&tab=Everything&query=any,contains,gollmann%20dieter%20%20computer%20security&facet=rtype,include,books&offset=0 )": {
+            "firstseen": 1738069801.1466303,
+            "lastseen": 1738575896.0181735
         },
-        "Review your highlights and notes from Kindle books (https://read.amazon.com/notebook)  (https://www.dropbox.com/preview/Kindle%20Clippings/My%20Clippingsold.txt?role=personal)": {
-            "firstseen": 1733323201.2882998,
-            "lastseen": 1736151001.2446067
+        "Do strengthening exercises": {
+            "firstseen": 1738069801.1466465,
+            "lastseen": 1738575896.018214
         },
-        "TSE": {
-            "firstseen": 1733323201.2883239,
-            "lastseen": 1736151001.2446134
+        "Map project for fixing the Unity Bank mandate The Unity Reference was APP-412172  and url https://apply.unity.co.uk/customer-update/section/4": {
+            "firstseen": 1738069801.1466587,
+            "lastseen": 1738575896.0181966
         },
-        "Review videos on phone and see what needs uploading to Nova's youtube.": {
-            "firstseen": 1733901601.9256523,
-            "lastseen": 1736151001.2445986
+        "Take exercise things to spare room": {
+            "firstseen": 1738069801.1466644,
+            "lastseen": 1738507138.6347263
         },
-        "Fix the holes in the flooring again": {
-            "firstseen": 1733902201.3523393,
-            "lastseen": 1736151001.2445421
+        "Debug IMPS on tower and push any changes (possibly a setup file for the pdf directories)": {
+            "firstseen": 1738071001.1384313,
+            "lastseen": 1738575896.018185
         },
-        "Setup USB3 charging thing for laptop.": {
-            "firstseen": 1733911801.1067567,
-            "lastseen": 1736151001.2446105
+        "Review the first 9 items in the physics book": {
+            "firstseen": 1738072201.9835625,
+            "lastseen": 1738503001.081464
         },
-        "Map a project for  next phase of the Garage Project": {
-            "firstseen": 1733912401.62007,
-            "lastseen": 1736151001.2445934
+        "Look at each project in Bearclaw and confirm that it is SMART": {
+            "firstseen": 1738072201.9835691,
+            "lastseen": 1738575896.0182004
         },
-        "renew passport": {
-            "firstseen": 1734516001.3035414,
-            "lastseen": 1736151001.2446232
+        "Fix 'knot' in the physics contstnat": {
+            "firstseen": 1738072801.1311026,
+            "lastseen": 1738575896.0182996
         },
-        "Get a Box and make bike light charging station in Garage": {
-            "firstseen": 1735765201.3359146,
-            "lastseen": 1736151001.2445798
+        "Practice decoding the long strings for the first 9 values in the chemistry book.": {
+            "firstseen": 1738072801.1311083,
+            "lastseen": 1738575896.0182211
         },
-        "Lookup the details of your landlords insurance": {
-            "firstseen": 1735765201.3359275,
-            "lastseen": 1736151001.244589
+        "Order the missing screws for the gates": {
+            "firstseen": 1738074601.8849485,
+            "lastseen": 1738575896.0182168
         },
-        "Christmas notes: NOT JUST  exercise, also water, and fibre, and having a constructive practice. Comics would be great. Set up the camera to properly record chrsitmas morning": {
-            "firstseen": 1735767001.1376562,
-            "lastseen": 1736151001.244551
+        "Get out mattress for rolls for Leo": {
+            "firstseen": 1738075201.5186348,
+            "lastseen": 1738575896.018242
         },
-        "Book car in at Halfords to do the wiring for camera.": {
-            "firstseen": 1735767001.1376626,
-            "lastseen": 1736151001.2445552
+        "Get Kat to  take a photo for passport https://www.gov.uk/renew-adult-passport/renew": {
+            "firstseen": 1738075201.5186393,
+            "lastseen": 1738502401.9364848
+        },
+        "Send Agend's for next week": {
+            "firstseen": 1738075801.3324609,
+            "lastseen": 1738575896.018236
+        },
+        "Fully back up WWW server": {
+            "firstseen": 1738075801.3324645,
+            "lastseen": 1738575896.0182528
+        },
+        "Practice catch with Nova and Leo": {
+            "firstseen": 1738075801.3324826,
+            "lastseen": 1738575896.018256
+        },
+        "Check the gate bolt is the right size.": {
+            "firstseen": 1738182001.1272454,
+            "lastseen": 1738507138.6346214
+        },
+        "Redo the Password thing for Yvonne": {
+            "firstseen": 1738232401.149385,
+            "lastseen": 1738575896.01816
+        },
+        "Calendar event to suspend Quickbooks": {
+            "firstseen": 1738233601.9832935,
+            "lastseen": 1738575896.0182853
+        },
+        "Contact Karen about Cyber Day": {
+            "firstseen": 1738236601.6072845,
+            "lastseen": 1738575896.0182939
+        },
+        "Find out about Cyber First": {
+            "firstseen": 1738236601.607288,
+            "lastseen": 1738575896.0182965
+        },
+        "Book the final demo date for 3rd year project students": {
+            "firstseen": 1738238122.1899457,
+            "lastseen": 1738575896.018204
+        },
+        "Review my actions in the EQT meeting minutes": {
+            "firstseen": 1738244401.9105258,
+            "lastseen": 1738575896.0182328
+        },
+        "Complete annual Accounts": {
+            "firstseen": 1738306801.832054,
+            "lastseen": 1738575896.0181565
+        },
+        "Send Thank you about the books": {
+            "firstseen": 1738306801.83229,
+            "lastseen": 1738575896.0183122
+        },
+        "finish hiding the dashcam wire in the car": {
+            "firstseen": 1738306822.665716,
+            "lastseen": 1738575896.018274
+        },
+        "Write script for Sibs": {
+            "firstseen": 1738317601.5855632,
+            "lastseen": 1738575896.0182385
+        },
+        "Clean out the rest of the password issues for mozillia monitor": {
+            "firstseen": 1738318201.578873,
+            "lastseen": 1738575896.0182111
+        },
+        "Process Buffer.md on laptop": {
+            "firstseen": 1738319401.8345556,
+            "lastseen": 1738575896.0182242
+        },
+        "Setup webinars Thursday, 6th February, 4pm-5pm BST Thursday, 20th March, 4pm-5pm BST": {
+            "firstseen": 1738324801.651684,
+            "lastseen": 1738575896.0181644
+        },
+        "Find supervisor for the student": {
+            "firstseen": 1738328401.2398546,
+            "lastseen": 1738575896.018191
+        },
+        "Brainstorm on emote.md": {
+            "firstseen": 1738432201.0908406,
+            "lastseen": 1738575896.0182881
+        },
+        "Apply to a crazy job": {
+            "firstseen": 1738432801.2440944,
+            "lastseen": 1738575896.018291
+        },
+        "Take the camera lens to the camera shop": {
+            "firstseen": 1738435201.0575767,
+            "lastseen": 1738575896.0182707
+        },
+        "Apply for new passwporthttps://www.gov.uk/renew-adult-passport/renew": {
+            "firstseen": 1738503001.0814805,
+            "lastseen": 1738575896.0182455
+        },
+        "Add a external LED to your Arduino project https://docs.arduino.cc/built-in-examples/basics/Blink/ (and probably a youtube video )": {
+            "firstseen": 1738503001.081525,
+            "lastseen": 1738575896.0182788
+        },
+        "self review exam": {
+            "firstseen": 1738503001.0815294,
+            "lastseen": 1738575896.0182822
+        },
+        "x 2025-02-02Readpages in Food and Cooking Book": {
+            "firstseen": 1738507138.6346138,
+            "lastseen": 1738507138.634614
+        },
+        "x 2025-02-02 Check the gate bolt is the right size.": {
+            "firstseen": 1738507201.9228106,
+            "lastseen": 1738575896.0182073
+        },
+        "Practice Talk for Seminar": {
+            "firstseen": 1738507400.4082541,
+            "lastseen": 1738575896.018153
+        },
+        "Work out exam deadline for Coursea": {
+            "firstseen": 1738507400.4082894,
+            "lastseen": 1738575896.018188
+        },
+        "Work out redundency payment": {
+            "firstseen": 1738507400.408329,
+            "lastseen": 1738575896.0182269
+        },
+        "Arrange meeting with Andy": {
+            "firstseen": 1738507400.408332,
+            "lastseen": 1738575896.0182297
         }
     },
     "projects": "",

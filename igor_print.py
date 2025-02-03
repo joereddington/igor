@@ -1,3 +1,4 @@
+#!/home/joe/git/igor/venv/bin/python
 import json
 import os
 import re
@@ -55,8 +56,6 @@ def display(database,resultsname):
 def combined_write():
     all_tasks=[]
     all_tasks.extend(database.get_current_tasks())
-    all_tasks.extend(rhul_database.get_current_tasks())
-    all_tasks.extend(eqt_database.get_current_tasks())
     write_age_of_tasks(all_tasks,script_path+"outputs/all.results.txt")
 
 
@@ -68,17 +67,5 @@ if __name__ == "__main__":
     database=TaskDatabase(script_path+"databases/database.json") #Main database
     print("Todo database loaded")
     database.update_current_tasks(get_todo_list(script_path+"../todo.txt/todo.txt"))
-    rhul_database=TaskDatabase(script_path+"databases/rhul.database.json")
-    print("rhul database loaded")
-    rhul_database.update_current_tasks(get_todo_list(script_path+"../diary/rhul.todo.txt"))
-    eqt_database=TaskDatabase(script_path+"databases/eqt.database.json")
-    print("eqt database loaded")
-    eqt_database.update_current_tasks(get_todo_list(script_path+"../todo.txt/eqt.todo.txt"))
-
     display(database,script_path+"outputs/results.txt")
-    print("----------------------------------")
-    display(rhul_database,script_path+"outputs/rhul.results.txt")
-    print("----------------------------------")
-    display(eqt_database,script_path+"outputs/eqt.results.txt")
-    print("----------------------------------")
     combined_write()

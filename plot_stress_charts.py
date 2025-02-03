@@ -1,4 +1,4 @@
-#!/home/joereddington/env/bin/python
+#!/home/joe/git/igor/venv/bin/python
 import numpy as np
 import time
 import matplotlib.pyplot as plt
@@ -97,25 +97,10 @@ class ProductivityPlotter():
 
 if __name__ == "__main__":
     os.chdir('/home/joe/git/igor/')
-    SOURCE= "outputs/eqt.results.txt"
-    DEST = "../todo.txt/eqt.priority.png"
-    a=ProductivityPlotter(SOURCE,DEST,DAYS)
-    a.get_graph()
-    print("EQT graph done")
     SOURCE= "outputs/results.txt"
     DEST = "../todo.txt/priority.png"
     a=ProductivityPlotter(SOURCE,DEST,DAYS)
     a.get_graph()
     print("personal graph done")
-    SOURCE= "outputs/rhul.results.txt"
-    DEST = "../todo.txt/rhul.priority.png"
-    a=ProductivityPlotter(SOURCE,DEST,DAYS)
-    a.get_graph()
-    print("rhul graph done")
-    SOURCE= "outputs/all.results.txt"
-    DEST = "../todo.txt/all.priority.png"
-    a=ProductivityPlotter(SOURCE,DEST,DAYS)
-    a.get_graph()
-    print("all graph done")
 
 

@@ -2,6 +2,5 @@
 import art
 import argparse
 
-
 art.args=art.setup_argument_list()
 art.go()

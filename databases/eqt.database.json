@@ -2,107 +2,107 @@
     "tasks": {
         "printed comic for writers.": {
             "firstseen": 1730738132.4409668,
-            "lastseen": 1736151001.2494085
+            "lastseen": 1737739201.7429948
         },
         "Do full accounts algorithm": {
             "firstseen": 1731085201.703295,
-            "lastseen": 1736151001.2494457
+            "lastseen": 1737739201.7430243
         },
         "Search for funding for eQuality Time Projects": {
             "firstseen": 1731085201.7033765,
-            "lastseen": 1736151001.24953
+            "lastseen": 1737739201.7430942
         },
         "Post Rachel's gift": {
             "firstseen": 1731321001.1429844,
-            "lastseen": 1736151001.2494125
+            "lastseen": 1737739201.7429981
         },
         "Close down the WWW server (or at least reduce - it's holding the www site)": {
             "firstseen": 1731347401.7065377,
-            "lastseen": 1736151001.2494707
+            "lastseen": 1737739201.743045
         },
         "Review the hosting move for WWW site": {
             "firstseen": 1732301401.2093396,
-            "lastseen": 1736151001.2494223
+            "lastseen": 1737739201.743006
         },
         "Check that IMPS will run locally and that it can sync up.": {
             "firstseen": 1733323201.2893562,
-            "lastseen": 1736151001.2494183
+            "lastseen": 1737739201.7430027
         },
         "Run mgit status on the git directory and process all alerts": {
             "firstseen": 1733323201.289369,
-            "lastseen": 1736151001.2494273
+            "lastseen": 1737739201.7430096
         },
         "Run multi-git-status on both aws servers to make sure all code is uploaded.": {
             "firstseen": 1733323201.2893767,
-            "lastseen": 1736151001.2494326
+            "lastseen": 1737739201.7430139
         },
         "Run the OBZ archive command and save to an external drive.  (details at 12/12/22)": {
             "firstseen": 1733323201.2893853,
-            "lastseen": 1736151001.2494385
+            "lastseen": 1737739201.7430184
         },
         "Ask for testimonial from completed fundings": {
             "firstseen": 1733323201.2894077,
-            "lastseen": 1736151001.2494538
+            "lastseen": 1737739201.7430313
         },
         "Backup AWS": {
             "firstseen": 1733323201.2894125,
-            "lastseen": 1736151001.249457
+            "lastseen": 1737739201.743034
         },
         "Check that everything in the 'in process' box really does have a task+Overhead": {
             "firstseen": 1733323201.2894237,
-            "lastseen": 1736151001.2494624
+            "lastseen": 1737739201.7430382
         },
         "Check the next school time": {
             "firstseen": 1733323201.2894287,
-            "lastseen": 1736151001.249466
+            "lastseen": 1737739201.743041
         },
         "Download the amazon months sales figures": {
             "firstseen": 1733323201.289442,
-            "lastseen": 1736151001.2494748
+            "lastseen": 1737739201.7430484
         },
         "Grant terms generally mean that every director has to have seen all of the paperwork: make sure they have": {
             "firstseen": 1733323201.2894511,
-            "lastseen": 1736151001.2494807
+            "lastseen": 1737739201.7430532
         },
         "Learn something new about vim in http://learnvimscriptthehardway.stevelosh.com/chapters/17.html": {
             "firstseen": 1733323201.289459,
-            "lastseen": 1736151001.2494864
+            "lastseen": 1737739201.7430577
         },
         "Make sure that there is a 'read book X' task on the projects board - it's relaxing.": {
             "firstseen": 1733323201.2894669,
-            "lastseen": 1736151001.2494917
+            "lastseen": 1737739201.7430623
         },
         "Make sure you have a continual professional developement practice happening": {
             "firstseen": 1733323201.2894742,
-            "lastseen": 1736151001.2494965
+            "lastseen": 1737739201.7430663
         },
         "Open list of projects to be funded": {
             "firstseen": 1733323201.28948,
-            "lastseen": 1736151001.2495005
+            "lastseen": 1737739201.7430694
         },
         "Post to WWW facebook page": {
             "firstseen": 1733323201.289486,
-            "lastseen": 1736151001.2495043
+            "lastseen": 1737739201.7430727
         },
         "Process the 'to put in Evernote' folder and add to database": {
             "firstseen": 1733323201.2894933,
-            "lastseen": 1736151001.2495093
+            "lastseen": 1737739201.743077
         },
         "Read the last www book": {
             "firstseen": 1733323201.289499,
-            "lastseen": 1736151001.249513
+            "lastseen": 1737739201.7430801
         },
         "Review starred items in feeds": {
             "firstseen": 1733323201.289505,
-            "lastseen": 1736151001.2495167
+            "lastseen": 1737739201.7430835
         },
         "Ring up every funder currently funding you and be nice to them and check you have all of your paperwork and everything else. Make sure that you are a pleasure to work with. That way they fund you again": {
             "firstseen": 1733323201.2895186,
-            "lastseen": 1736151001.2495263
+            "lastseen": 1737739201.7430909
         },
         "Spendminutes or so considering the fruits of long term goals": {
             "firstseen": 1733323201.2895322,
-            "lastseen": 1736151001.2495356
+            "lastseen": 1737739201.7430983
         }
     },
     "projects": "",

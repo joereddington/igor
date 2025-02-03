@@ -1,88 +1,128 @@
 {
     "tasks": {
-        "Write two questions for exam": {
-            "firstseen": 1732300801.7993853,
-            "lastseen": 1736151001.2471745
-        },
         "Claim expenses": {
             "firstseen": 1732792801.4315155,
-            "lastseen": 1736151001.2471786
+            "lastseen": 1737738601.1859155
         },
         "One of the teaching prize things has to be how you improved the 3rd year projects, which means:": {
             "firstseen": 1733850601.1576378,
-            "lastseen": 1736151001.2471843
+            "lastseen": 1737739201.742594
         },
         "* Making a list": {
             "firstseen": 1733850601.1576426,
-            "lastseen": 1736151001.2471874
+            "lastseen": 1737739201.7425969
         },
         "* Getting proper detailed feedback from last year's cohort (and for this year)": {
             "firstseen": 1733850601.15765,
-            "lastseen": 1736151001.2471924
+            "lastseen": 1737739201.7426007
         },
         "* Checking in with Yiannis": {
             "firstseen": 1733850601.1576655,
-            "lastseen": 1736151001.2471955
+            "lastseen": 1737739201.7426033
         },
         "* Seeing if Peter has had any contact with Ahmed": {
             "firstseen": 1733850601.1576715,
-            "lastseen": 1736151001.2471995
+            "lastseen": 1737739201.7426064
         },
         "* Booking the damn thing.": {
             "firstseen": 1733850601.1576762,
-            "lastseen": 1736151001.2472026
+            "lastseen": 1737739201.7426088
         },
         "* Setting up weekly meetings with my Project students.": {
             "firstseen": 1733850601.1576822,
-            "lastseen": 1736151001.2472064
+            "lastseen": 1737739201.742612
         },
         "Setup the Q&A for Friday": {
             "firstseen": 1733850601.157687,
-            "lastseen": 1736151001.2472098
+            "lastseen": 1737738601.1859398
         },
         "Publish the Essays for this year's Cohort.": {
             "firstseen": 1733850601.157693,
-            "lastseen": 1736151001.2472136
-        },
-        "Write up Coursework changes again - given that causes and improvements are effecitvely the same thing, combine them": {
-            "firstseen": 1733902201.353577,
-            "lastseen": 1736151001.2472198
+            "lastseen": 1737738601.185943
         },
         "Work out the CASPER extension to mail merge": {
             "firstseen": 1733911201.9207416,
-            "lastseen": 1736151001.2472358
+            "lastseen": 1737739201.7426202
         },
         "* What do I need?": {
             "firstseen": 1733911201.9207466,
-            "lastseen": 1736151001.2472386
+            "lastseen": 1737739201.7426226
         },
         "* CSV output that the students uploaded.": {
             "firstseen": 1733911201.920752,
-            "lastseen": 1736151001.2472422
+            "lastseen": 1737739201.7426255
         },
         "* The actual figures": {
             "firstseen": 1733911201.9207568,
-            "lastseen": 1736151001.2472453
+            "lastseen": 1737739201.7426279
         },
         "* A list of expected students and their email addresses.": {
             "firstseen": 1733911201.9207628,
-            "lastseen": 1736151001.2472494
+            "lastseen": 1737739201.7426312
         },
         "* A plan for if they ignore (oh - we take a literal register)": {
             "firstseen": 1733911201.9207692,
-            "lastseen": 1736151001.2472537
-        },
-        "Guess lectuers should be given some accessibility notes": {
-            "firstseen": 1733912401.6211946,
-            "lastseen": 1736151001.247224
+            "lastseen": 1737739201.7426345
         },
         "Ask MB if they wants to be given a linked post": {
             "firstseen": 1733913001.5588791,
-            "lastseen": 1736151001.2472281
+            "lastseen": 1737738601.1859543
         },
         "Create a github repo for bettercampusconnect.": {
             "firstseen": 1733917201.0822725,
-            "lastseen": 1736151001.247232
+            "lastseen": 1737738601.1859574
+        },
+        "Write questions for exam": {
+            "firstseen": 1736352001.4602127,
+            "lastseen": 1737738601.1859128
+        },
+        "Write up Coursework changes again - given that causes and improvements are effectively the same thing, combine them": {
+            "firstseen": 1736352001.460262,
+            "lastseen": 1737739201.742617
+        },
+        "guest lecturers should be given some accessibility notes": {
+            "firstseen": 1736352001.460267,
+            "lastseen": 1737738601.185951
+        },
+        "print out the book": {
+            "firstseen": 1736418601.5682616,
+            "lastseen": 1737738601.1859102
+        },
+        "Get chatGPT to write some better opennings and closings for the feedback meetings": {
+            "firstseen": 1736418601.5683408,
+            "lastseen": 1737738601.1859612
+        },
+        "x 2025-01-21 Mark projects": {
+            "firstseen": 1737451801.3270564,
+            "lastseen": 1737738601.1859007
+        },
+        "Send The exam form": {
+            "firstseen": 1737451801.3270612,
+            "lastseen": 1737738601.1859045
+        },
+        "Second Mark the projects": {
+            "firstseen": 1737451801.3270652,
+            "lastseen": 1737738601.1859071
+        },
+        "Claim expenses for Conference thing": {
+            "firstseen": 1737739201.7425737,
+            "lastseen": 1737739201.742574
+        },
+        "Write a 'so you are going to be a guest lecturer' document: accessibility, room attendance, is content examinable": {
+            "firstseen": 1737739201.7425795,
+            "lastseen": 1737739201.7425797
+        },
+        "Setup the GitLab for this year's cohort": {
+            "firstseen": 1737739201.7425828,
+            "lastseen": 1737739201.742583
+        },
+        "Print out and self review example": {
+            "firstseen": 1737739201.7425861,
+            "lastseen": 1737739201.7425864
+        },
+        "Fully Map the CASPER project as a private project": {
+            "firstseen": 1737739201.7425897,
+            "lastseen": 1737739201.7425897
         }
     },
     "projects": "",
