@@ -58,6 +58,7 @@ def write_last_date():
 
 args = setup_argument_list()
 events = import_events(here + "/art_events.csv")
+
 if args.n:
     for task in tasks_since(events, read_last_date()[0]):
         print(task)
