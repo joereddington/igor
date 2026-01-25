@@ -10,7 +10,7 @@ import os
 
 SOURCE= "eqt.results.txt"
 DEST = "../todo.txt/eqt.priority.png"
-DAYS = 3
+DAYS = 7
 SMOOTHING=1
 
 class ProductivityPlotter():

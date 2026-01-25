@@ -1,59 +1,63 @@
-30, (E) Review starred items in feeds +Overhead +EQT
-8, (E) Learn something new about vim in http://learnvimscriptthehardway.stevelosh.com/chapters/17.html +EQT  
-4, (E) Check that everything in the 'in process' box really does have a task+Overhead   +EQT
-60, (E) Backup AWS +EQT
-4, (D) Do full accounts algorithm +EQT 
-6, (B) Make sure the github issues are in the right columns +Overhead https://github.com/users/joereddington/projects/1#card-30279917 +EQT
+1, (A) 1. Looking for urgent: Check Calendar and reminders and notebooks  @singleton +PlanningAndTracking  
+1, (A) Fill out Gratitude Book 
+30, (C) deploy any commits from OVF that are hanging around. 
+7, (E) Empty whatsapp and facebook inboxes. +Overhead  
+7, (C) Check your vitimin box
+7, (C) Gratitude blog post
+40, (E) Process the 'to put in Evernote' folder and add to database +Overhead   +EQT 
+30, (E) Run the ICO backup code
+100, (C) 10 Year plan: check you have 5 projects in each part
+120, (E) Go though documents folder and put everything you want to save in Dropbox.
+120, (E) Spend 20 minutes or so considering the fruits of long term goals +Overhead +EQT
+15, (E) process Garage inbox. 
+17, (E) Post to Vegan Facebook group  @phone   
 170, (C) Check that IMPS will run locally and that it can sync up.  +EQT
-80, (C) Run the OBZ archive command and save to an external drive.  +EQT (details at 12/12/22) 
+180, (E) Do full review of the memory palace. 
+2, (A) process emotional todo list. 
+200, (E) Get Flu vaccine +Health
+200, (E) Review the 'everything Joe knows about' files in both gDrive and 1Drive +Health
+250, (E) share your gift policy on the social networks.    @phone 
+3, (E) Floss +Health   
+30, (B) Make sure you have booked a bunch of leave from RHUL 
+30, (C) Run mgit status on the git directory and process all alerts +EQT
 30, (C) Run multi-git-status on both aws servers to make sure all code is uploaded.  +EQT
 30, (D) Clean out Fridge
-30, (B) Make sure you have booked a bunch of leave from RHUL 
-6, (D) Send something to the grandparent whatsapp group  https://github.com/users/joereddington/projects/5#column-6773919
-7, (C) Review the feedbacks from Kat and follow up https://github.com/joereddington/Projects-Private/issues/171 
-6, (B) Make sure that all open github issues are in  the priority project with https://github.com/eQualityTime/Public/issues?q=is%3Aopen+is%3Aissue+-project%3AeQualityTime%2F4+
-10, (C) deploy any commits from OVF that are hanging around. 
-2, (A) process emotional todo list. https://github.com/joereddington/Projects-Private/issues/188  
-1, (A) 1. Looking for urgent: Check Calendar and reminders and notebooks  @singleton +PlanningAndTracking  
-7, (C) Review and re-score  Wheel Of life
-7, (C) Check you have ingredients for three levels of basic food - salad - scrabmled tofu, roast veg. 
-30, (C) Run mgit status on the git directory and process all alerts +EQT
-30, (E) Make sure you have a continual professional developement practice happening  +EQT
-180, (E) Do full review of the memory palace. 
-6, (D) Check starred messages in kat whatsapp 
+30, (D) Sync the photoshop directroy
 30, (E) Arrange to see §e:U2FsdGVkX1+CdjDvzorpn6gqbv9OgwzT/wXTpMNKWc4=§
+30, (E) Check Passports are in the safe
 30, (E) Check ranking scripts +Overhead
-10, (E) Empty whatsapp and facebook inboxes. +Overhead  
-7, (E) Check the last time §e:U2FsdGVkX18e4dSc7UPajr6opVoESIiCeqyZawbCs2Q=§ called you +Family @phone   
-40, (E) Any Chocolate should be in the car or outside fridge (assuming winter)  
 30, (E) Check wishlist, add bits you want, remove gifts you don't  @phone +overhead
+30, (E) Give laptop screen a good clean +Overhead
+30, (E) Make sure you have a continual professional developement practice happening  +EQT
+30, (E) Review (days since) app counts +Overhead  https://joereddington.github.io/2020/09/18/dayssince.html 
+30, (E) Review starred items in feeds +Overhead +EQT
+30, (E) Review your highlights and notes from Kindle books (https://read.amazon.com/notebook)  (https://www.dropbox.com/preview/Kindle%20Clippings/My%20Clippingsold.txt?role=personal)  +Overhead
+30, (E) TSE +Health  
+30, (E) Write Moonpig cards for this month +Overhead
+4, (D) Do full accounts algorithm +EQT 
+4, (E) Check that everything in the 'in process' box really does have a task+Overhead   +EQT
+4, (E) Look at list of topics and ring §e:U2FsdGVkX19WbLrOTMYO0bkqz6MOP/OQe8b1WJ4GTb0=§ +Family @phone   
+4, (E) Save a nice family memory +Family @phone    
+40, (E) Any Chocolate should be in the car or outside fridge (assuming winter)  
+6, (B) Make sure the github issues are in the right columns +Overhead https://github.com/users/joereddington/projects/1#card-30279917 +EQT
+6, (C) Review projects
+6, (D) Check starred messages in kat whatsapp 
+60, (E) Backup AWS +EQT
+60, (E) Listen to  Randy Pausch Talk +Overhead @phone  
+7, (C) Check you have ingredients for three levels of basic food - salad - scrabmled tofu, roast veg. 
+7, (C) Review Wheel Of life Projects
+7, (E) Check the last time §e:U2FsdGVkX18e4dSc7UPajr6opVoESIiCeqyZawbCs2Q=§ called you +Family @phone   
 7, (E) Confirm plans for next two weekends.+Overhead @phone   
 7, (E) Contact §e:U2FsdGVkX18YzL62ZWaIGXGiMMQ+Iuvx81cvznpIv1k=§ for advice about something  
-7, (E) Cut nails +Health    
 7, (E) Cut Nova and Leo nails +Health    
+7, (E) Cut nails +Health    
 7, (E) Do Menu for the week +Family  @phone   
-9, (E) Do something genuinely nice for §e:U2FsdGVkX1/jHkQjxS8m0DEs/epwc3SIRl2yYxHMBzc=§ +Family
 7, (E) Empty Joe inbox completely +Overhead    
-3, (E) Floss +Health   
-200, (E) Get Flu vaccine +Health
-30, (E) Give laptop screen a good clean +Overhead
-120, (E) Go though documents folder and put everything you want to save in Dropbox.
 7, (E) Go thought calendar and find at least one 'thank you's  you *can* make  +Overhead  
 7, (E) Go through phone and save all of the numbers +Overhead  @phone   
-60, (E) Listen to  Randy Pausch Talk +Overhead @phone  
 7, (E) Log weight +Health   
-4, (E) Look at list of topics and ring §e:U2FsdGVkX19WbLrOTMYO0bkqz6MOP/OQe8b1WJ4GTb0=§ +Family @phone   
-17, (E) Post to Vegan Facebook group  @phone   
-10, (E) Process the 'to put in Evernote' folder and add to database +Overhead   +EQT 
 7, (E) Publicly thank someone +Overhead  
-30, (E) Review (days since) app counts +Overhead  https://joereddington.github.io/2020/09/18/dayssince.html 
-30, (E) Review your highlights and notes from Kindle books (https://read.amazon.com/notebook)  (https://www.dropbox.com/preview/Kindle%20Clippings/My%20Clippingsold.txt?role=personal)  +Overhead
-4, (E) Save a nice family memory +Family @phone    
-15, (E) process Garage inbox. 
-120, (E) Spend 20 minutes or so considering the fruits of long term goals +Overhead +EQT
-30, (E) TSE +Health  
 7, (E) Trim nose hair +Health    
-30, (E) Write Moonpig cards for this month +Overhead
-30, (E) Check Passports are in the safe
-250, (E) share your gift policy on the social networks.    @phone 
-100, (C) 10 Year plan: check you have 5 projects in each part
+8, (E) Learn something new about vim in http://learnvimscriptthehardway.stevelosh.com/chapters/17.html +EQT  
+80, (C) Run the OBZ archive command and save to an external drive.  +EQT (details at 12/12/22) 
+9, (E) Do something genuinely nice for §e:U2FsdGVkX1/jHkQjxS8m0DEs/epwc3SIRl2yYxHMBzc=§ +Family

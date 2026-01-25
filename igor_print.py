@@ -36,7 +36,7 @@ def print_tasks_by_age(todo_list):
 
     print("Red Tasks")
     for task in red_tasks: 
-        cprint(task['task'],'red')
+        cprint(task['task']+", "+str(task['age']),'red')
 
 def write_age_of_tasks(todo_list,resultsname):
     red_tasks= [task for task in todo_list if task['age']>7] 
