@@ -1,4 +1,4 @@
-#!/home/joe/git/igor/venv/bin/python
+#!/Users/ppac065/git/igor/venv/bin/python
 import json
 import os
 import re

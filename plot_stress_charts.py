@@ -1,8 +1,9 @@
-#!/home/joe/git/igor/venv/bin/python
+#!/Users/ppac065/git/igor/venv/bin/python
 import numpy as np
 import time
 import matplotlib.pyplot as plt
 import os
+from pathlib import Path
 
 #Todo
 #1 merge this with the other graph files - make a class that records the source, destination, and time period and then works. 
@@ -96,7 +97,8 @@ class ProductivityPlotter():
     print("%s written with output from %s"%(self.dest, self.source))
 
 if __name__ == "__main__":
-    os.chdir('/home/joe/git/igor/')
+    os.chdir(Path.home() / "git" / "igor")
+
     SOURCE= "outputs/results.txt"
     DEST = "../todo.txt/priority.png"
     a=ProductivityPlotter(SOURCE,DEST,DAYS)
